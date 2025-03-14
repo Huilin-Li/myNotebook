@@ -9,7 +9,7 @@
 
 # Random
 - [Hugo: Book theme](content\random\HugoBookGithubAction.md)
-- [Hugo](.\content\random\hugo.md)
+- [Hugo](content/random/hugo.md)
 -----------
 
 [Contact](content/me/contact.md)
