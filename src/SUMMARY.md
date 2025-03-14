@@ -5,7 +5,7 @@
 
 # Bioinformarics
 - [Binder design](content/bioinformatics/BinderDesign/readme.md)
-    - [truncation](content/bioinformatics/BinderDesign/truncation.md)
+    - [preprocessing](content/bioinformatics/BinderDesign/truncation.md)
     - [design](content/bioinformatics/BinderDesign/design.md)
     - [pae_interaction score](content/bioinformatics/BinderDesign/pae_score.md)
     - [backbones filtering](content/bioinformatics/BinderDesign/filtering.md)

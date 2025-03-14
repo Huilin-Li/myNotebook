@@ -1,7 +1,3 @@
----
-title: truncation
-weight: 1
----
 # `target.pdb` preprocessing
 
 Assuming we have a target protein `target.pdb`, and we want to create a binder to `target.pdb`. The first step is preprocessing `target.pdb`. Generally spearking, there are two steps we need to think of.

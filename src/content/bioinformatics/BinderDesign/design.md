@@ -1,7 +1,5 @@
----
-title: design binders via RFdiffusion and ProteinMPNN-FastRelax
-weight: 2
----
+# Design binders via RFdiffusion and ProteinMPNN-FastRelax
+
 In my use case, firstly, I tried to de novo design binders. However, I found that designed binders are limited to proteins with only one helix. Then, I changed to design binders based on scaffolds. The design process and scripts I used a lot are as follows.
 
 ## Three needed designing environments
@@ -81,7 +79,15 @@ Then, our directories tree is updated as:
 
 ### 2️⃣ backbones design script `bb.slm`
 I use *array-job* to parallelly execute different <code>ppi.hotspot_res</code> arguments simultaneously. For example, I have 10 `ppi.hotspot_res` arguments to test, so my `paraID.txt` is like:
-<center>{{<figure src="../bioIMG/PARAid.PNG" width="400" caption="my `paraID.txt` file">}}</center>
+
+<center>
+  <figure>
+    <img src=".\bioIMG\PARAid.PNG" alt=" " width="400">
+    <figcaption>my `paraID.txt` file</figcaption>
+  </figure>
+</center>
+
+
 and I setup 10 jobs (<code>#SBATCH -a 1-10</code>) for each `ppi.hotspot_res`. Each `ppi.hotspot_res` will design <code>inference.num_designs=10000</code> binder backbones.
 
 
@@ -118,12 +124,13 @@ python3 ../RFdiffusion/scripts/run_inference.py \
         denoiser.noise_scale_ca=0 \
         denoiser.noise_scale_frame=0
 ```
-{{< hint info >}}
+
 <details>
 <summary><b>Untar 1000 scaffold templates</b></summary>
 Don't forget to untar the provided 1000 scaffold templates (<code>RFdiffusion/examples/ppi_scaffolds_subset.tar.gz</code>). In <code>ppi_scaffolds_subset.tar.gz</code>, there is <code>ppi_scaffolds</code> folder and we will use it in our backbone designing script.
 </details>
-{{< /hint >}}
+
+
 Now, our directories tree becomes:
 ```commandline
 ├── dl_binder_design
@@ -152,24 +159,28 @@ Now, our directories tree becomes:
 │   ├── helper_scripts
 │   │   └── make_secstruc_adj.py
 ```
-{{< hint info >}}
+
+
 <details>
 <summary><b>Add <code>ppi_scaffolds</code> argument in backbone name</b></summary>
 In <code>RFdiffusion/scripts/run_inference.py</code>, I modify some codes a little bit, so that, the backbone pdb file name will contain the `ppi_scaffolds` argument.
-<center>{{<figure src="../bioIMG/mdf1.PNG" width="600">}}</center>
-<center>{{<figure src="../bioIMG/mdf2.PNG" width="600">}}</center>
+<center><img src="./bioIMG/mdf1.PNG" width="600"></center>
+<center><img src="./bioIMG/mdf2.PNG" width="600"></center>
 Therefore, one of <code>inference.num_designs=10000</code> binder backbones for <code>ppi.hotspot_res=[A28-A25-A29-A26-A63]</code> argument is <code>A28-A25-A29-A26-A63_0.pdb</code>.
 </details>
-{{< /hint >}}
+
+
 
 ### 3️⃣ sequence design and binder assessment script `mpnn_af.slm`{#step3}
-{{< hint info >}}
+
+
 <details>
 <summary><b>Perform a filtering step</b></summary>
 At this moment, we could perform a filtering step after we get all potential binder backbones. For example, I only want backbones (orange cross) in one side (green circle). We could remove other useless backbones, which can help a lot in reducing the computation stress.
-<center>{{<figure src="../bioIMG/eg.png" width="400">}}</center>
+<center><img src="./bioIMG/eg.png" width="400"></center>
 </details>
-{{< /hint >}}
+
+
 Let's say that we finally select 1000 favourite backbones, and we go to design binders based on these 1000 backbones. Normally, I will split favourite backbones into multiple folders, so I could parallelly design binders in each folder simultaneously. For example, in order to speed up the binder design process, I split the 1000 favourite backbones into 5 folders. After that, I could parallely execute <code>#SBATCH -a 1-5</code> jobs simultaneously.
 ```python
 # sele_list contains names of 1000 selected backbones, 
