@@ -8,7 +8,7 @@ In my opinion, this is a very heloful step, because it greatly increase the spee
 
 <center>
   <figure>
-    <img src=".\bioIMG\CB.PNG" alt=" " width="600">
+    <img src=".\bioIMG\CB.png" alt=" " width="600">
     <figcaption>fig.1 `target.pdb` and atoms where binders should bind with</figcaption>
   </figure>
 </center>
@@ -19,7 +19,7 @@ In my opinion, this is a very heloful step, because it greatly increase the spee
 
 <center>
   <figure>
-    <img src=".\bioIMG\vis_bbs.PNG" alt=" " width="600">
+    <img src=".\bioIMG\vis_bbs.png" alt=" " width="600">
     <figcaption>fig.2 distribution of all designed backbone centers</figcaption>
   </figure>
 </center>
