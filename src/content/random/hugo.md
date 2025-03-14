@@ -95,18 +95,16 @@ In `now.md` file, add commands:
 3. [Install the giscus app](https://github.com/apps/giscus)
 
 For example,
-<center>{{<figure src="../images/giscus1.PNG" width="400" alt=" ">}}</center>
-
-<p><img src=".\img\giscus1.PNG" alt="The Rust Logo" /></p>
+<p><img src=".\img\giscus1.PNG" alt=" " width="400"/></p>
 
 
 
 4. Configure giscus codeblock. Go to [Giscus App](https://giscus.app/), and get the anable Giscus.
-<center>{{<figure src="../images/giscus2.png" width="500" alt=" ">}}</center>
-<center>{{<figure src="../images/giscus3.png" width="600" alt=" ">}}</center>
-5. Add the <code>script</code> to <code>themes\hugo-book\layouts\partials\docs\comments.html</code>, like this
-<center>{{<figure src="../images/giscus4.png" width="600" alt=" ">}}</center>
+<p><img src=".\img\giscus2.png" alt=" " width="500"/></p>
+<p><img src=".\img\giscus3.png" alt=" " width="600"/></p>
 
+5. Add the <code>script</code> to <code>themes\hugo-book\layouts\partials\docs\comments.html</code>, like this
+<p><img src=".\img\giscus4.png" alt=" " width="600"/></p>
 6. `bookComments: false` controls whether you want to display comment in this page.
 
 
