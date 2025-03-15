@@ -12,7 +12,7 @@
     - [results](content/bioinformatics/BinderDesign/results.md)
     
 - [Computational Protein](content/bioinformatics/protein/readme.md)
-    - [databases: PDB, Swiss-Prot, OMG_Prot50]()
+    - [databases: PDB, Swiss-Prot, OMG_Prot50](content/bioinformatics/protein/db.md)
     - [BLAST usage: BLASTp makeblastdb](content/bioinformatics/protein/blast.md)
     - [protein strcuture measurement](content/bioinformatics/protein/structureMeasure.md)
 
