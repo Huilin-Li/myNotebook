@@ -25,9 +25,12 @@
 - [Shell Bash Slurm Command](content/random/shell.md)
 - [Python](content/random/python.md)
 - [Visualization](content/random/vis/readme.md)
+    - [Drawing a plane perpendicular to a given line](content/random/vis/plane.md)
     - [Plotly color](content/random/vis/plotlycolor.md)
 - [Hugo: Book theme](content/random/HugoBookGithubAction.md)
 - [Hugo](content/random/hugo.md)
+
+
 -----------
 
 [Contact](content/me/contact.md)
