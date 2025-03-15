@@ -15,6 +15,12 @@
     - [protein strcuture measurement](content/bioinformatics/protein/structureMeasure.md)
 - [PyMol](content/bioinformatics/pymol.md)
 
+
+# Statistics
+- [Bayesian inference](content/stat/baye.md)
+
+
+
 # Random
 - [Shell Bash Slurm Command](content/random/shell.md)
 - [Python](content/random/python.md)
