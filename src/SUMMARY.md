@@ -16,6 +16,10 @@
 - [PyMol](content/bioinformatics/pymol.md)
 
 # Random
+- [Shell Bash Slurm Command](content/random/shell.md)
+- [Python](content/random/python.md)
+- [Visualization](content/random/vis/readme.md)
+    - [Plotly color](content/random/vis/plotlycolor.md)
 - [Hugo: Book theme](content/random/HugoBookGithubAction.md)
 - [Hugo](content/random/hugo.md)
 -----------
