@@ -4,445 +4,445 @@
 ## Discrete color names
 <table>
   <tr>
-    <td><img src="./img/colors/aliceblue.png"  width = 500px height = 500px></td>
+    <td><img src="./img/colors/aliceblue.png"  width = 100px height = 30px></td>
     <td>aliceblue</td>
-    <td><img src="./img/colors/antiquewhite.png"  width = 500px height = 500px></td>
+    <td><img src="./img/colors/antiquewhite.png"  width = 100px height = 30px></td>
     <td>antiquewhite</td>
   </tr>
   <tr>
-    <td><img src="./img/colors/aqua.png"  width = 500px height = 500px></td>
+    <td><img src="./img/colors/aqua.png"  width = 100px height = 30px></td>
     <td>aqua</td>
-    <td><img src="./img/colors/aquamarine.png"  width = 500px height = 500px></td>
+    <td><img src="./img/colors/aquamarine.png"  width = 100px height = 30px></td>
     <td>aquamarine</td>
   </tr>
   <tr>
-    <td><img src="./img/colors/azure.png"  width = 500px height = 500px></td>
+    <td><img src="./img/colors/azure.png"  width = 100px height = 30px></td>
     <td>azure</td>
-    <td><img src="./img/colors/beige.png"  width = 500px height = 500px></td>
+    <td><img src="./img/colors/beige.png"  width = 100px height = 30px></td>
     <td>beige</td>
   </tr>
   <tr>
-    <td><img src="./img/colors/bisque.png"  width = 500px height = 500px></td>
+    <td><img src="./img/colors/bisque.png"  width = 100px height = 30px></td>
     <td>bisque</td>
-    <td><img src="./img/colors/black.png"  width = 500px height = 500px></td>
+    <td><img src="./img/colors/black.png"  width = 100px height = 30px></td>
     <td>black</td>
   </tr>
   <tr>
-    <td><img src="./img/colors/blanchedalmond.png"  width = 500px height = 500px></td>
+    <td><img src="./img/colors/blanchedalmond.png"  width = 100px height = 30px></td>
     <td>blanchedalmond</td>
-    <td><img src="./img/colors/blue.png"  width = 500px height = 500px></td>
+    <td><img src="./img/colors/blue.png"  width = 100px height = 30px></td>
     <td>blue</td>
   </tr>
   <tr>
-    <td><img src="./img/colors/blueviolet.png"  width = 500px height = 500px></td>
+    <td><img src="./img/colors/blueviolet.png"  width = 100px height = 30px></td>
     <td>blueviolet</td>
-    <td><img src="./img/colors/brown.png"  width = 500px height = 500px></td>
+    <td><img src="./img/colors/brown.png"  width = 100px height = 30px></td>
     <td>brown</td>
   </tr>
   <tr>
-    <td><img src="./img/colors/burlywood.png"  width = 500px height = 500px></td>
+    <td><img src="./img/colors/burlywood.png"  width = 100px height = 30px></td>
     <td>burlywood</td>
-    <td><img src="./img/colors/cadetblue.png"  width = 500px height = 500px></td>
+    <td><img src="./img/colors/cadetblue.png"  width = 100px height = 30px></td>
     <td>cadetblue</td>
   </tr>
   <tr>
-    <td><img src="./img/colors/chartreuse.png"  width = 500px height = 500px></td>
+    <td><img src="./img/colors/chartreuse.png"  width = 100px height = 30px></td>
     <td>chartreuse</td>
-    <td><img src="./img/colors/chocolate.png"  width = 500px height = 500px></td>
+    <td><img src="./img/colors/chocolate.png"  width = 100px height = 30px></td>
     <td>chocolate</td>
   </tr>
   <tr>
-    <td><img src="./img/colors/coral.png"  width = 500px height = 500px></td>
+    <td><img src="./img/colors/coral.png"  width = 100px height = 30px></td>
     <td>coral</td>
-    <td><img src="./img/colors/cornflowerblue.png"  width = 500px height = 500px></td>
+    <td><img src="./img/colors/cornflowerblue.png"  width = 100px height = 30px></td>
     <td>cornflowerblue</td>
   </tr>
   <tr>
-    <td><img src="./img/colors/cornsilk.png"  width = 500px height = 500px></td>
+    <td><img src="./img/colors/cornsilk.png"  width = 100px height = 30px></td>
     <td>cornsilk</td>
-    <td><img src="./img/colors/crimson.png"  width = 500px height = 500px></td>
+    <td><img src="./img/colors/crimson.png"  width = 100px height = 30px></td>
     <td>crimson</td>
   </tr>
   <tr>
-    <td><img src="./img/colors/cyan.png"  width = 500px height = 500px></td>
+    <td><img src="./img/colors/cyan.png"  width = 100px height = 30px></td>
     <td>cyan</td>
-    <td><img src="./img/colors/darkblue.png"  width = 500px height = 500px></td>
+    <td><img src="./img/colors/darkblue.png"  width = 100px height = 30px></td>
     <td>darkblue</td>
   </tr>
   <tr>
-    <td><img src="./img/colors/darkcyan.png"  width = 500px height = 500px></td>
+    <td><img src="./img/colors/darkcyan.png"  width = 100px height = 30px></td>
     <td>darkcyan</td>
-    <td><img src="./img/colors/darkgoldenrod.png"  width = 500px height = 500px></td>
+    <td><img src="./img/colors/darkgoldenrod.png"  width = 100px height = 30px></td>
     <td>darkgoldenrod</td>
   </tr>
   <tr>
-    <td><img src="./img/colors/darkgray.png"  width = 500px height = 500px></td>
+    <td><img src="./img/colors/darkgray.png"  width = 100px height = 30px></td>
     <td>darkgray</td>
-    <td><img src="./img/colors/darkgrey.png"  width = 500px height = 500px></td>
+    <td><img src="./img/colors/darkgrey.png"  width = 100px height = 30px></td>
     <td>darkgrey</td>
   </tr>
   <tr>
-    <td><img src="./img/colors/darkgreen.png"  width = 500px height = 500px></td>
+    <td><img src="./img/colors/darkgreen.png"  width = 100px height = 30px></td>
     <td>darkgreen</td>
-    <td><img src="./img/colors/darkkhaki.png"  width = 500px height = 500px></td>
+    <td><img src="./img/colors/darkkhaki.png"  width = 100px height = 30px></td>
     <td>darkkhaki</td>
   </tr>
   <tr>
-    <td><img src="./img/colors/darkmagenta.png"  width = 500px height = 500px></td>
+    <td><img src="./img/colors/darkmagenta.png"  width = 100px height = 30px></td>
     <td>darkmagenta</td>
-    <td><img src="./img/colors/darkolivegreen.png"  width = 500px height = 500px></td>
+    <td><img src="./img/colors/darkolivegreen.png"  width = 100px height = 30px></td>
     <td>darkolivegreen</td>
   </tr>
   <tr>
-    <td><img src="./img/colors/darkorange.png"  width = 500px height = 500px></td>
+    <td><img src="./img/colors/darkorange.png"  width = 100px height = 30px></td>
     <td>darkorange</td>
-    <td><img src="./img/colors/darkorchid.png"  width = 500px height = 500px></td>
+    <td><img src="./img/colors/darkorchid.png"  width = 100px height = 30px></td>
     <td>darkorchid</td>
   </tr>
   <tr>
-    <td><img src="./img/colors/darkred.png"  width = 500px height = 500px></td>
+    <td><img src="./img/colors/darkred.png"  width = 100px height = 30px></td>
     <td>darkred</td>
-    <td><img src="./img/colors/darksalmon.png"  width = 500px height = 500px></td>
+    <td><img src="./img/colors/darksalmon.png"  width = 100px height = 30px></td>
     <td>darksalmon</td>
   </tr>
   <tr>
-    <td><img src="./img/colors/darkseagreen.png"  width = 500px height = 500px></td>
+    <td><img src="./img/colors/darkseagreen.png"  width = 100px height = 30px></td>
     <td>darkseagreen</td>
-    <td><img src="./img/colors/darkslateblue.png"  width = 500px height = 500px></td>
+    <td><img src="./img/colors/darkslateblue.png"  width = 100px height = 30px></td>
     <td>darkslateblue</td>
   </tr>
   <tr>
-    <td><img src="./img/colors/darkslategray.png"  width = 500px height = 500px></td>
+    <td><img src="./img/colors/darkslategray.png"  width = 100px height = 30px></td>
     <td>darkslategray</td>
-    <td><img src="./img/colors/darkslategrey.png"  width = 500px height = 500px></td>
+    <td><img src="./img/colors/darkslategrey.png"  width = 100px height = 30px></td>
     <td>darkslategrey</td>
   </tr>
   <tr>
-    <td><img src="./img/colors/darkturquoise.png"  width = 500px height = 500px></td>
+    <td><img src="./img/colors/darkturquoise.png"  width = 100px height = 30px></td>
     <td>darkturquoise</td>
-    <td><img src="./img/colors/darkviolet.png"  width = 500px height = 500px></td>
+    <td><img src="./img/colors/darkviolet.png"  width = 100px height = 30px></td>
     <td>darkviolet</td>
   </tr>
   <tr>
-    <td><img src="./img/colors/deeppink.png"  width = 500px height = 500px></td>
+    <td><img src="./img/colors/deeppink.png"  width = 100px height = 30px></td>
     <td>deeppink</td>
-    <td><img src="./img/colors/deepskyblue.png"  width = 500px height = 500px></td>
+    <td><img src="./img/colors/deepskyblue.png"  width = 100px height = 30px></td>
     <td>deepskyblue</td>
   </tr>
   <tr>
-    <td><img src="./img/colors/dimgray.png"  width = 500px height = 500px></td>
+    <td><img src="./img/colors/dimgray.png"  width = 100px height = 30px></td>
     <td>dimgray</td>
-    <td><img src="./img/colors/dimgrey.png"  width = 500px height = 500px></td>
+    <td><img src="./img/colors/dimgrey.png"  width = 100px height = 30px></td>
     <td>dimgrey</td>
   </tr>
   <tr>
-    <td><img src="./img/colors/dodgerblue.png"  width = 500px height = 500px></td>
+    <td><img src="./img/colors/dodgerblue.png"  width = 100px height = 30px></td>
     <td>dodgerblue</td>
-    <td><img src="./img/colors/firebrick.png"  width = 500px height = 500px></td>
+    <td><img src="./img/colors/firebrick.png"  width = 100px height = 30px></td>
     <td>firebrick</td>
   </tr>
   <tr>
-    <td><img src="./img/colors/floralwhite.png"  width = 500px height = 500px></td>
+    <td><img src="./img/colors/floralwhite.png"  width = 100px height = 30px></td>
     <td>floralwhite</td>
-    <td><img src="./img/colors/forestgreen.png"  width = 500px height = 500px></td>
+    <td><img src="./img/colors/forestgreen.png"  width = 100px height = 30px></td>
     <td>forestgreen</td>
   </tr>
   <tr>
-    <td><img src="./img/colors/fuchsia.png"  width = 500px height = 500px></td>
+    <td><img src="./img/colors/fuchsia.png"  width = 100px height = 30px></td>
     <td>fuchsia</td>
-    <td><img src="./img/colors/gainsboro.png"  width = 500px height = 500px></td>
+    <td><img src="./img/colors/gainsboro.png"  width = 100px height = 30px></td>
     <td>gainsboro</td>
   </tr>
   <tr>
-    <td><img src="./img/colors/ghostwhite.png"  width = 500px height = 500px></td>
+    <td><img src="./img/colors/ghostwhite.png"  width = 100px height = 30px></td>
     <td>ghostwhite</td>
-    <td><img src="./img/colors/gold.png"  width = 500px height = 500px></td>
+    <td><img src="./img/colors/gold.png"  width = 100px height = 30px></td>
     <td>gold</td>
   </tr>
   <tr>
-    <td><img src="./img/colors/goldenrod.png"  width = 500px height = 500px></td>
+    <td><img src="./img/colors/goldenrod.png"  width = 100px height = 30px></td>
     <td>goldenrod</td>
-    <td><img src="./img/colors/gray.png"  width = 500px height = 500px></td>
+    <td><img src="./img/colors/gray.png"  width = 100px height = 30px></td>
     <td>gray</td>
   </tr>
   <tr>
-    <td><img src="./img/colors/grey.png"  width = 500px height = 500px></td>
+    <td><img src="./img/colors/grey.png"  width = 100px height = 30px></td>
     <td>grey</td>
-    <td><img src="./img/colors/green.png"  width = 500px height = 500px></td>
+    <td><img src="./img/colors/green.png"  width = 100px height = 30px></td>
     <td>green</td>
   </tr>
   <tr>
-    <td><img src="./img/colors/greenyellow.png"  width = 500px height = 500px></td>
+    <td><img src="./img/colors/greenyellow.png"  width = 100px height = 30px></td>
     <td>greenyellow</td>
-    <td><img src="./img/colors/honeydew.png"  width = 500px height = 500px></td>
+    <td><img src="./img/colors/honeydew.png"  width = 100px height = 30px></td>
     <td>honeydew</td>
   </tr>
   <tr>
-    <td><img src="./img/colors/hotpink.png"  width = 500px height = 500px></td>
+    <td><img src="./img/colors/hotpink.png"  width = 100px height = 30px></td>
     <td>hotpink</td>
-    <td><img src="./img/colors/indianred.png"  width = 500px height = 500px></td>
+    <td><img src="./img/colors/indianred.png"  width = 100px height = 30px></td>
     <td>indianred</td>
   </tr>
   <tr>
-    <td><img src="./img/colors/indigo.png"  width = 500px height = 500px></td>
+    <td><img src="./img/colors/indigo.png"  width = 100px height = 30px></td>
     <td>indigo</td>
-    <td><img src="./img/colors/ivory.png"  width = 500px height = 500px></td>
+    <td><img src="./img/colors/ivory.png"  width = 100px height = 30px></td>
     <td>ivory</td>
   </tr>
   <tr>
-    <td><img src="./img/colors/khaki.png"  width = 500px height = 500px></td>
+    <td><img src="./img/colors/khaki.png"  width = 100px height = 30px></td>
     <td>khaki</td>
-    <td><img src="./img/colors/lavender.png"  width = 500px height = 500px></td>
+    <td><img src="./img/colors/lavender.png"  width = 100px height = 30px></td>
     <td>lavender</td>
   </tr>
   <tr>
-    <td><img src="./img/colors/lavenderblush.png"  width = 500px height = 500px></td>
+    <td><img src="./img/colors/lavenderblush.png"  width = 100px height = 30px></td>
     <td>lavenderblush</td>
-    <td><img src="./img/colors/lawngreen.png"  width = 500px height = 500px></td>
+    <td><img src="./img/colors/lawngreen.png"  width = 100px height = 30px></td>
     <td>lawngreen</td>
   </tr>
   <tr>
-    <td><img src="./img/colors/lemonchiffon.png"  width = 500px height = 500px></td>
+    <td><img src="./img/colors/lemonchiffon.png"  width = 100px height = 30px></td>
     <td>lemonchiffon</td>
-    <td><img src="./img/colors/lightblue.png"  width = 500px height = 500px></td>
+    <td><img src="./img/colors/lightblue.png"  width = 100px height = 30px></td>
     <td>lightblue</td>
   </tr>
   <tr>
-    <td><img src="./img/colors/lightcoral.png"  width = 500px height = 500px></td>
+    <td><img src="./img/colors/lightcoral.png"  width = 100px height = 30px></td>
     <td>lightcoral</td>
-    <td><img src="./img/colors/lightcyan.png"  width = 500px height = 500px></td>
+    <td><img src="./img/colors/lightcyan.png"  width = 100px height = 30px></td>
     <td>lightcyan</td>
   </tr>
   <tr>
-    <td><img src="./img/colors/lightgoldenrodyellow.png"  width = 500px height = 500px></td>
+    <td><img src="./img/colors/lightgoldenrodyellow.png"  width = 100px height = 30px></td>
     <td>lightgoldenrodyellow</td>
-    <td><img src="./img/colors/lightgray.png"  width = 500px height = 500px></td>
+    <td><img src="./img/colors/lightgray.png"  width = 100px height = 30px></td>
     <td>lightgray</td>
   </tr>
   <tr>
-    <td><img src="./img/colors/lightgrey.png"  width = 500px height = 500px></td>
+    <td><img src="./img/colors/lightgrey.png"  width = 100px height = 30px></td>
     <td>lightgrey</td>
-    <td><img src="./img/colors/lightgreen.png"  width = 500px height = 500px></td>
+    <td><img src="./img/colors/lightgreen.png"  width = 100px height = 30px></td>
     <td>lightgreen</td>
   </tr>
   <tr>
-    <td><img src="./img/colors/lightpink.png"  width = 500px height = 500px></td>
+    <td><img src="./img/colors/lightpink.png"  width = 100px height = 30px></td>
     <td>lightpink</td>
-    <td><img src="./img/colors/lightsalmon.png"  width = 500px height = 500px></td>
+    <td><img src="./img/colors/lightsalmon.png"  width = 100px height = 30px></td>
     <td>lightsalmon</td>
   </tr>
   <tr>
-    <td><img src="./img/colors/lightseagreen.png"  width = 500px height = 500px></td>
+    <td><img src="./img/colors/lightseagreen.png"  width = 100px height = 30px></td>
     <td>lightseagreen</td>
-    <td><img src="./img/colors/lightskyblue.png"  width = 500px height = 500px></td>
+    <td><img src="./img/colors/lightskyblue.png"  width = 100px height = 30px></td>
     <td>lightskyblue</td>
   </tr>
   <tr>
-    <td><img src="./img/colors/lightslategray.png"  width = 500px height = 500px></td>
+    <td><img src="./img/colors/lightslategray.png"  width = 100px height = 30px></td>
     <td>lightslategray</td>
-    <td><img src="./img/colors/lightslategrey.png"  width = 500px height = 500px></td>
+    <td><img src="./img/colors/lightslategrey.png"  width = 100px height = 30px></td>
     <td>lightslategrey</td>
   </tr>
   <tr>
-    <td><img src="./img/colors/lightsteelblue.png"  width = 500px height = 500px></td>
+    <td><img src="./img/colors/lightsteelblue.png"  width = 100px height = 30px></td>
     <td>lightsteelblue</td>
-    <td><img src="./img/colors/lightyellow.png"  width = 500px height = 500px></td>
+    <td><img src="./img/colors/lightyellow.png"  width = 100px height = 30px></td>
     <td>lightyellow</td>
   </tr>
   <tr>
-    <td><img src="./img/colors/lime.png"  width = 500px height = 500px></td>
+    <td><img src="./img/colors/lime.png"  width = 100px height = 30px></td>
     <td>lime</td>
-    <td><img src="./img/colors/limegreen.png"  width = 500px height = 500px></td>
+    <td><img src="./img/colors/limegreen.png"  width = 100px height = 30px></td>
     <td>limegreen</td>
   </tr>
   <tr>
-    <td><img src="./img/colors/linen.png"  width = 500px height = 500px></td>
+    <td><img src="./img/colors/linen.png"  width = 100px height = 30px></td>
     <td>linen</td>
-    <td><img src="./img/colors/magenta.png"  width = 500px height = 500px></td>
+    <td><img src="./img/colors/magenta.png"  width = 100px height = 30px></td>
     <td>magenta</td>
   </tr>
   <tr>
-    <td><img src="./img/colors/maroon.png"  width = 500px height = 500px></td>
+    <td><img src="./img/colors/maroon.png"  width = 100px height = 30px></td>
     <td>maroon</td>
-    <td><img src="./img/colors/mediumaquamarine.png"  width = 500px height = 500px></td>
+    <td><img src="./img/colors/mediumaquamarine.png"  width = 100px height = 30px></td>
     <td>mediumaquamarine</td>
   </tr>
   <tr>
-    <td><img src="./img/colors/mediumblue.png"  width = 500px height = 500px></td>
+    <td><img src="./img/colors/mediumblue.png"  width = 100px height = 30px></td>
     <td>mediumblue</td>
-    <td><img src="./img/colors/mediumorchid.png"  width = 500px height = 500px></td>
+    <td><img src="./img/colors/mediumorchid.png"  width = 100px height = 30px></td>
     <td>mediumorchid</td>
   </tr>
   <tr>
-    <td><img src="./img/colors/mediumpurple.png"  width = 500px height = 500px></td>
+    <td><img src="./img/colors/mediumpurple.png"  width = 100px height = 30px></td>
     <td>mediumpurple</td>
-    <td><img src="./img/colors/mediumseagreen.png"  width = 500px height = 500px></td>
+    <td><img src="./img/colors/mediumseagreen.png"  width = 100px height = 30px></td>
     <td>mediumseagreen</td>
   </tr>
   <tr>
-    <td><img src="./img/colors/mediumslateblue.png"  width = 500px height = 500px></td>
+    <td><img src="./img/colors/mediumslateblue.png"  width = 100px height = 30px></td>
     <td>mediumslateblue</td>
-    <td><img src="./img/colors/mediumspringgreen.png"  width = 500px height = 500px></td>
+    <td><img src="./img/colors/mediumspringgreen.png"  width = 100px height = 30px></td>
     <td>mediumspringgreen</td>
   </tr>
   <tr>
-    <td><img src="./img/colors/mediumturquoise.png"  width = 500px height = 500px></td>
+    <td><img src="./img/colors/mediumturquoise.png"  width = 100px height = 30px></td>
     <td>mediumturquoise</td>
-    <td><img src="./img/colors/mediumvioletred.png"  width = 500px height = 500px></td>
+    <td><img src="./img/colors/mediumvioletred.png"  width = 100px height = 30px></td>
     <td>mediumvioletred</td>
   </tr>
   <tr>
-    <td><img src="./img/colors/midnightblue.png"  width = 500px height = 500px></td>
+    <td><img src="./img/colors/midnightblue.png"  width = 100px height = 30px></td>
     <td>midnightblue</td>
-    <td><img src="./img/colors/mintcream.png"  width = 500px height = 500px></td>
+    <td><img src="./img/colors/mintcream.png"  width = 100px height = 30px></td>
     <td>mintcream</td>
   </tr>
   <tr>
-    <td><img src="./img/colors/mistyrose.png"  width = 500px height = 500px></td>
+    <td><img src="./img/colors/mistyrose.png"  width = 100px height = 30px></td>
     <td>mistyrose</td>
-    <td><img src="./img/colors/moccasin.png"  width = 500px height = 500px></td>
+    <td><img src="./img/colors/moccasin.png"  width = 100px height = 30px></td>
     <td>moccasin</td>
   </tr>
   <tr>
-    <td><img src="./img/colors/navajowhite.png"  width = 500px height = 500px></td>
+    <td><img src="./img/colors/navajowhite.png"  width = 100px height = 30px></td>
     <td>navajowhite</td>
-    <td><img src="./img/colors/navy.png"  width = 500px height = 500px></td>
+    <td><img src="./img/colors/navy.png"  width = 100px height = 30px></td>
     <td>navy</td>
   </tr>
   <tr>
-    <td><img src="./img/colors/oldlace.png"  width = 500px height = 500px></td>
+    <td><img src="./img/colors/oldlace.png"  width = 100px height = 30px></td>
     <td>oldlace</td>
-    <td><img src="./img/colors/olive.png"  width = 500px height = 500px></td>
+    <td><img src="./img/colors/olive.png"  width = 100px height = 30px></td>
     <td>olive</td>
   </tr>
   <tr>
-    <td><img src="./img/colors/olivedrab.png"  width = 500px height = 500px></td>
+    <td><img src="./img/colors/olivedrab.png"  width = 100px height = 30px></td>
     <td>olivedrab</td>
-    <td><img src="./img/colors/orange.png"  width = 500px height = 500px></td>
+    <td><img src="./img/colors/orange.png"  width = 100px height = 30px></td>
     <td>orange</td>
   </tr>
   <tr>
-    <td><img src="./img/colors/orangered.png"  width = 500px height = 500px></td>
+    <td><img src="./img/colors/orangered.png"  width = 100px height = 30px></td>
     <td>orangered</td>
-    <td><img src="./img/colors/orchid.png"  width = 500px height = 500px></td>
+    <td><img src="./img/colors/orchid.png"  width = 100px height = 30px></td>
     <td>orchid</td>
   </tr>
   <tr>
-    <td><img src="./img/colors/palegoldenrod.png"  width = 500px height = 500px></td>
+    <td><img src="./img/colors/palegoldenrod.png"  width = 100px height = 30px></td>
     <td>palegoldenrod</td>
-    <td><img src="./img/colors/palegreen.png"  width = 500px height = 500px></td>
+    <td><img src="./img/colors/palegreen.png"  width = 100px height = 30px></td>
     <td>palegreen</td>
   </tr>
   <tr>
-    <td><img src="./img/colors/paleturquoise.png"  width = 500px height = 500px></td>
+    <td><img src="./img/colors/paleturquoise.png"  width = 100px height = 30px></td>
     <td>paleturquoise</td>
-    <td><img src="./img/colors/palevioletred.png"  width = 500px height = 500px></td>
+    <td><img src="./img/colors/palevioletred.png"  width = 100px height = 30px></td>
     <td>palevioletred</td>
   </tr>
   <tr>
-    <td><img src="./img/colors/papayawhip.png"  width = 500px height = 500px></td>
+    <td><img src="./img/colors/papayawhip.png"  width = 100px height = 30px></td>
     <td>papayawhip</td>
-    <td><img src="./img/colors/peachpuff.png"  width = 500px height = 500px></td>
+    <td><img src="./img/colors/peachpuff.png"  width = 100px height = 30px></td>
     <td>peachpuff</td>
   </tr>
   <tr>
-    <td><img src="./img/colors/peru.png"  width = 500px height = 500px></td>
+    <td><img src="./img/colors/peru.png"  width = 100px height = 30px></td>
     <td>peru</td>
-    <td><img src="./img/colors/pink.png"  width = 500px height = 500px></td>
+    <td><img src="./img/colors/pink.png"  width = 100px height = 30px></td>
     <td>pink</td>
   </tr>
   <tr>
-    <td><img src="./img/colors/plum.png"  width = 500px height = 500px></td>
+    <td><img src="./img/colors/plum.png"  width = 100px height = 30px></td>
     <td>plum</td>
-    <td><img src="./img/colors/powderblue.png"  width = 500px height = 500px></td>
+    <td><img src="./img/colors/powderblue.png"  width = 100px height = 30px></td>
     <td>powderblue</td>
   </tr>
   <tr>
-    <td><img src="./img/colors/purple.png"  width = 500px height = 500px></td>
+    <td><img src="./img/colors/purple.png"  width = 100px height = 30px></td>
     <td>purple</td>
-    <td><img src="./img/colors/red.png"  width = 500px height = 500px></td>
+    <td><img src="./img/colors/red.png"  width = 100px height = 30px></td>
     <td>red</td>
   </tr>
   <tr>
-    <td><img src="./img/colors/rosybrown.png"  width = 500px height = 500px></td>
+    <td><img src="./img/colors/rosybrown.png"  width = 100px height = 30px></td>
     <td>rosybrown</td>
-    <td><img src="./img/colors/royalblue.png"  width = 500px height = 500px></td>
+    <td><img src="./img/colors/royalblue.png"  width = 100px height = 30px></td>
     <td>royalblue</td>
   </tr>
   <tr>
-    <td><img src="./img/colors/saddlebrown.png"  width = 500px height = 500px></td>
+    <td><img src="./img/colors/saddlebrown.png"  width = 100px height = 30px></td>
     <td>saddlebrown</td>
-    <td><img src="./img/colors/salmon.png"  width = 500px height = 500px></td>
+    <td><img src="./img/colors/salmon.png"  width = 100px height = 30px></td>
     <td>salmon</td>
   </tr>
   <tr>
-    <td><img src="./img/colors/sandybrown.png"  width = 500px height = 500px></td>
+    <td><img src="./img/colors/sandybrown.png"  width = 100px height = 30px></td>
     <td>sandybrown</td>
-    <td><img src="./img/colors/seagreen.png"  width = 500px height = 500px></td>
+    <td><img src="./img/colors/seagreen.png"  width = 100px height = 30px></td>
     <td>seagreen</td>
   </tr>
   <tr>
-    <td><img src="./img/colors/seashell.png"  width = 500px height = 500px></td>
+    <td><img src="./img/colors/seashell.png"  width = 100px height = 30px></td>
     <td>seashell</td>
-    <td><img src="./img/colors/sienna.png"  width = 500px height = 500px></td>
+    <td><img src="./img/colors/sienna.png"  width = 100px height = 30px></td>
     <td>sienna</td>
   </tr>
   <tr>
-    <td><img src="./img/colors/silver.png"  width = 500px height = 500px></td>
+    <td><img src="./img/colors/silver.png"  width = 100px height = 30px></td>
     <td>silver</td>
-    <td><img src="./img/colors/skyblue.png"  width = 500px height = 500px></td>
+    <td><img src="./img/colors/skyblue.png"  width = 100px height = 30px></td>
     <td>skyblue</td>
   </tr>
   <tr>
-    <td><img src="./img/colors/slateblue.png"  width = 500px height = 500px></td>
+    <td><img src="./img/colors/slateblue.png"  width = 100px height = 30px></td>
     <td>slateblue</td>
-    <td><img src="./img/colors/slategray.png"  width = 500px height = 500px></td>
+    <td><img src="./img/colors/slategray.png"  width = 100px height = 30px></td>
     <td>slategray</td>
   </tr>
   <tr>
-    <td><img src="./img/colors/slategrey.png"  width = 500px height = 500px></td>
+    <td><img src="./img/colors/slategrey.png"  width = 100px height = 30px></td>
     <td>slategrey</td>
-    <td><img src="./img/colors/snow.png"  width = 500px height = 500px></td>
+    <td><img src="./img/colors/snow.png"  width = 100px height = 30px></td>
     <td>snow</td>
   </tr>
   <tr>
-    <td><img src="./img/colors/springgreen.png"  width = 500px height = 500px></td>
+    <td><img src="./img/colors/springgreen.png"  width = 100px height = 30px></td>
     <td>springgreen</td>
-    <td><img src="./img/colors/steelblue.png"  width = 500px height = 500px></td>
+    <td><img src="./img/colors/steelblue.png"  width = 100px height = 30px></td>
     <td>steelblue</td>
   </tr>
   <tr>
-    <td><img src="./img/colors/tan.png"  width = 500px height = 500px></td>
+    <td><img src="./img/colors/tan.png"  width = 100px height = 30px></td>
     <td>tan</td>
-    <td><img src="./img/colors/teal.png"  width = 500px height = 500px></td>
+    <td><img src="./img/colors/teal.png"  width = 100px height = 30px></td>
     <td>teal</td>
   </tr>
   <tr>
-    <td><img src="./img/colors/thistle.png"  width = 500px height = 500px></td>
+    <td><img src="./img/colors/thistle.png"  width = 100px height = 30px></td>
     <td>thistle</td>
-    <td><img src="./img/colors/tomato.png"  width = 500px height = 500px></td>
+    <td><img src="./img/colors/tomato.png"  width = 100px height = 30px></td>
     <td>tomato</td>
   </tr>
   <tr>
-    <td><img src="./img/colors/turquoise.png"  width = 500px height = 500px></td>
+    <td><img src="./img/colors/turquoise.png"  width = 100px height = 30px></td>
     <td>turquoise</td>
-    <td><img src="./img/colors/violet.png"  width = 500px height = 500px></td>
+    <td><img src="./img/colors/violet.png"  width = 100px height = 30px></td>
     <td>violet</td>
   </tr>
   <tr>
-    <td><img src="./img/colors/wheat.png"  width = 500px height = 500px></td>
+    <td><img src="./img/colors/wheat.png"  width = 100px height = 30px></td>
     <td>wheat</td>
-    <td><img src="./img/colors/white.png"  width = 500px height = 500px></td>
+    <td><img src="./img/colors/white.png"  width = 100px height = 30px></td>
     <td>white</td>
   </tr>
   <tr>
-    <td><img src="./img/colors/whitesmoke.png"  width = 500px height = 500px></td>
+    <td><img src="./img/colors/whitesmoke.png"  width = 100px height = 30px></td>
     <td>whitesmoke</td>
-    <td><img src="./img/colors/yellow.png"  width = 500px height = 500px></td>
+    <td><img src="./img/colors/yellow.png"  width = 100px height = 30px></td>
     <td>yellow</td>
   </tr>
   <tr>
-    <td><img src="./img/colors/yellowgreen.png"  width = 500px height = 500px></td>
+    <td><img src="./img/colors/yellowgreen.png"  width = 100px height = 30px></td>
     <td>yellowgreen</td>
   </tr>
 </table>
