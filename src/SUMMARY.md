@@ -15,6 +15,10 @@
     - [databases: PDB, Swiss-Prot, OMG_Prot50](content/bioinformatics/protein/db.md)
     - [BLAST usage: BLASTp makeblastdb](content/bioinformatics/protein/blast.md)
     - [protein strcuture measurement](content/bioinformatics/protein/structureMeasure.md)
+    - [fasta to mutated fasta .py](content/bioinformatics/protein/fa2mufa.md)
+    - [sequence similarity .py](content/bioinformatics/protein/seqsimilarity.md)
+    - [foldseek usage](content/bioinformatics/protein/foldseek.md)
+
 
 
 - [PyMol](content/bioinformatics/pymol.md)

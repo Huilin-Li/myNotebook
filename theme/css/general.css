@@ -2,7 +2,7 @@
 
 :root {
     /* Browser default font-size 62.5% is 16px, this way 1 rem = 10px */
-    font-size: 0.8rem;
+    font-size: 52.5%;
     color-scheme: var(--color-scheme);
 }
 
