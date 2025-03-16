@@ -18,6 +18,7 @@
     - [fasta to mutated fasta .py](content/bioinformatics/protein/fa2mufa.md)
     - [sequence similarity .py](content/bioinformatics/protein/seqsimilarity.md)
     - [foldseek usage](content/bioinformatics/protein/foldseek.md)
+    - [Encoding Sequences into Integer Representations Using K-mer Binary Mapping](content/bioinformatics/protein/kmerbinarymap.md)
 
 
 
