@@ -4,6 +4,8 @@
 - Kmers: `['MKTL', 'KTLG', 'TLGE', 'LGEF', 'GEFI', 'EFIV', 'FIVE', 'IVEK', 'VEKQ', 'EKQH']`
 - Encodings: `[5057, 15385, 49556, 6470, 37986, 17954, 25124, 8771, 9268, 17226]`
 - Check:
+
+
 | Kmer   | K-mer Binary Mapping  | Encoding    | Check    | 
 | ---    | -----------           | ----------- | ----------- |
 | "MKTL" | 0001 0011 1100 0001   | 5057        | ✔️|
