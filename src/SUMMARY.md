@@ -22,6 +22,7 @@
     - [parasail in C usage](content/bioinformatics/protein/parasailC.md)
     - [Biopython](content/bioinformatics/protein/biopython.md)
     - [unipressed.UniprotkbClient](content/bioinformatics/protein/uniprotana.md)
+    - [daliLite V5 usage](content/bioinformatics/protein/dali.md)
 
 
 
@@ -41,6 +42,7 @@
     - [Plotly color](content/random/vis/plotlycolor.md)
 - [Hugo: Book theme](content/random/HugoBookGithubAction.md)
 - [Hugo](content/random/hugo.md)
+- [resources](content/random/resources.md)
 
 
 -----------

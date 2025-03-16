@@ -93,3 +93,23 @@ cp ./*.pdb ../newfoler
 cd directory
 ls -l | wc -l
 ```
+## 
+```shell
+# get .gz files
+wget -r -np -e robots=off -A 'pep.all.fa.gz' https://ftp.ensembl.org/pub/current_fasta/ 
+```
+
+```shell
+stat_gpu # check available  partition
+
+srun -q gpu -p v100-af --mem=50G --gres=gpu:1 --pty /bin/bash # access one gpu
+
+tar xvzf file.tar.gz # unzip
+
+module load igv # access specific place
+
+ls -1 | wc -l # count files in a directory in linux
+
+```
+
+<p><img src=".\img\addPATH.png" alt=" " /></p>

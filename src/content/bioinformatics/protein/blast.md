@@ -1,6 +1,18 @@
 ## sequence alignment via BLASTp with using makeblastdb for custom database
 
 
+```
+module load blast/2.11.0+
+cd domainPDB
+
+../bin/import.pl 
+--pdbfile ../toy_PDB/pdb1ppt.ent 
+--pdbid 1ppt 
+--dat ./ 
+> import.stdout 2> import.stderr
+
+```
+
 
 ```
 cd root/OMGstudy/
