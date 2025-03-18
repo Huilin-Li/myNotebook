@@ -67,3 +67,8 @@ pip install pyg_lib torch_scatter torch_sparse torch_cluster torch_spline_conv -
 6. `pip install e3nn`
 7. `pip install fair-esm`
 8. `pip install rdkit-pypi`
+9. `pip install biopython`
+10. `pip install ProDy`
+11. `pip install matplotlib`
+12. `pip install pandas`
+13. `pip install PyYAML`
