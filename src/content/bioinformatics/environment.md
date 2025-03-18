@@ -2,7 +2,9 @@
 
 <div class="warning">
 
-torch, torch_geometric and their dependencies: torch_scatter and torch_cluster 
+**Important setup:**
+
+torch, torch_geometric and their dependencies: torch_scatter and torch_cluster
 
 </div>
 
@@ -40,8 +42,25 @@ pip install pyg_lib torch_scatter torch_sparse torch_cluster torch_spline_conv -
 ```
 
 <div class="warning">
+
 **IMPORTTANT:**
 
+1. Both PyG and PyTorch must be installed via `pip`
+
+2. PyTorch and CUDA version must be same.
+
+3. PyTorch installation must be through Wheel not Conda.
+
+4. PyTorch 2.5.1 doesn't work with PyG 2.5.0.
+
+
+<center>
+  <figure>
+    <img src="./protein/img/env.png" alt=" " width="600">
+  </figure>
+</center>
 
 
 </div>
+
+
