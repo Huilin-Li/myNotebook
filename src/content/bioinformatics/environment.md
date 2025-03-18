@@ -43,7 +43,7 @@ pip install pyg_lib torch_scatter torch_sparse torch_cluster torch_spline_conv -
 
 <div class="warning">
 
-**IMPORTTANT:**
+**IMPORTANT:**
 
 1. Both PyG and PyTorch must be installed via `pip`
 
@@ -64,3 +64,6 @@ pip install pyg_lib torch_scatter torch_sparse torch_cluster torch_spline_conv -
 </div>
 
 
+6. `pip install e3nn`
+7. `pip install fair-esm`
+8. `pip install rdkit-pypi`
