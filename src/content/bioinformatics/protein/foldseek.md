@@ -146,3 +146,68 @@ examples:
  # Skip prefilter and perform an exhaustive alignment (slower but more sensitive)
  foldseek easy-search examples/d1asha_ examples/ result.m8 tmp --exhaustive-search 1
 ```
+
+
+
+## usage history
+
+```
+
+#!/bin/bash
+
+source ~/miniconda3/etc/profile.d/conda.sh
+conda activate foldseek
+
+
+pdb_DB="/(...)/lihuilin/myfoldseek/PDB_db_dir/myPDBdb"
+afdb_DB="/(...)/lihuilin/myfoldseek/AFDB_db_dir/myAFDBdb"
+
+
+query_pdb="/(...)/lihuilin/query/xxx.pdb"
+
+
+
+cd /(...)/lihuilin/myfoldseek
+mkdir -p xxx_all
+cd xxx_all
+
+
+# foldseek easy-search $query_pdb $afdb_DB xxx_mut_afdb_tms_thr_abo_0_4_result.m8 tmp --tmscore-threshold 0.4 --alignment-type 1 --format-output query,target,evalue,pident,fident,bits,tseq,qtmscore,ttmscore,alntmscore,rmsd,prob
+
+
+# foldseek easy-search $query_pdb $pdb_DB xxx_mut_pdbdb_tms_thr_abo_0_4_result.m8 tmp --tmscore-threshold 0.4 --alignment-type 1 --format-output query,target,evalue,pident,fident,bits,tseq,qtmscore,ttmscore,alntmscore,rmsd,prob
+
+
+
+
+afdb_res_m8="/(...)/lihuilin/myfoldseek/xxx_mut_afdb_tms_thr_abo_0_4_result.m8"
+pdb_res_m8="/(...)/lihuilin/myfoldseek/xxx_mut_pdbdb_tms_thr_abo_0_4_result.m8"
+
+PDBdb_dir="/(...)/lihuilin/DB/pure_PDB_DB_by_Chain/"
+AFDBdb_dir="/(...)/lihuilin/DB/AFDB_pLDDT_70"
+
+
+afdb_res_dir="/(...)/lihuilin/myfoldseek/xxx_mut_afdb_tms_thr_abo_0_4_result_dir"
+pdb_res_dir="/(...)/lihuilin/myfoldseek/xxx_mut_pdbdb_tms_thr_abo_0_4_result_dir"
+mkdir -p $afdb_res_dir
+mkdir -p $pdb_res_dir
+
+# for afdb
+while read -r line; do
+    ID=$(echo "$line" | awk '{print $2}')
+    inp_fp="$AFDBdb_dir/$ID.pdb"
+    oup_fp="$afdb_res_dir/$ID.pdb"
+    cp "$inp_fp" "$oup_fp"
+done < $afdb_res_m8
+
+# for pdb
+while read -r line; do
+    ID=$(echo "$line" | awk '{print $2}')
+    inp_fp="$PDBdb_dir$ID.pdb"
+    oup_fp="$pdb_res_dir/$ID.pdb"
+    cp "$inp_fp" "$oup_fp"
+
+done < $pdb_res_m8
+
+
+```

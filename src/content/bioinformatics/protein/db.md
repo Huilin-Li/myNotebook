@@ -7,7 +7,7 @@
 ### download
 1. https://files.rcsb.org/pub/pdb/data/structures/all/pdb/
 
-<p><img src="./img/pdb_db.png" width="50" alt=" "></P>
+<p><img src="./img/pdb_db.png" width="500" alt=" "></P>
 
 2. save this website as *PDB - FTP Archive over HTTP.html*
 3. extract *pdbXXXX.ent.gz* list

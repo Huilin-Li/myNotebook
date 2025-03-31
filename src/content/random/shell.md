@@ -1,6 +1,15 @@
 So..., I find I used these codes a lot.
 
 ## 
+
+```
+while IFS= read -r line; do
+   python ./../PDB_ana.py ${line} /../test_clean/ 
+done < <(grep "" ./pdb.txt)
+```
+
+
+
 ```shell
 ls -l | wc -l
 
