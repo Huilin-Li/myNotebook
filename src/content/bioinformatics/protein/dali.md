@@ -14,3 +14,31 @@
 2> systematic.stderr
 
 ```
+
+## dali name assignment
+```python
+import itertools
+import os, gzip, shutil
+
+def generate_unique_names():
+    # Create a pool of characters: A-Z, 0-9
+
+    characters = 'abcdefghijklmnopqrstuvwxyz0123456789'
+    
+    # Generate all combinations of 4 characters
+    unique_names = [''.join(comb) for comb in itertools.product(characters, repeat=4)]
+    
+    return unique_names
+
+# Example usage
+unique_names = generate_unique_names()
+
+# Print the first 10 unique names
+characters = 'abcdefghijklmnopqrstuvwxyz0123456789'
+print([''.join(comb) for comb in itertools.product(characters, repeat=4)])
+
+
+
+shutil.copyfile("old_path/" + old_name + ".pdb", "new_path/" + new_name + ".pdb")
+
+```
