@@ -16,7 +16,9 @@
 ```
 
 ## dali name assignment
+
 ```python
+
 import itertools
 import os, gzip, shutil
 
