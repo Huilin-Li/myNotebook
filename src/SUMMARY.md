@@ -39,6 +39,7 @@
 
 # Random
 - [Shell Bash Slurm Command](content/random/shell.md)
+- [LaTex](content/random/latex.md)
 - [Python](content/random/python.md)
 - [Visualization](content/random/vis/readme.md)
     - [Drawing a plane perpendicular to a given line](content/random/vis/plane.md)

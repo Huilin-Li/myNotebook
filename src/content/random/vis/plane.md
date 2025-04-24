@@ -1,13 +1,11 @@
 # Plotly: Drawing a plane perpendicular to a given line
 
 
-When I was working on my binder design task, I need to select suitable hotspot residues that can lead to design better binders.
-In addition to hydrophobic amino acids, I also want to focus on the amino acids whose positions are close to the outside edge, and far away from the center of the protein.
-Therefore, I expect a plane that can approximately cut the protein layer by layer with my expected distance to the outside edge.
+When I was working on my binder design task, I need to select suitable hotspot residues that can lead to design better binders. In addition to hydrophobic amino acids, I also want to focus on the amino acids whose positions are close to the outside edge, and far away from the center of the protein. Therefore, I expect a plane that can approximately cut the protein layer by layer with my expected distance to the outside edge.
 
-By calculating the centers of two parts of my protein, I can easily determine one line. However, it took me lots of time to find the plane that can be perpendicular to this line.
+By calculating the centers of two parts of my protein, I can easily determine one line. However, it took me much time to find the plane that can be perpendicular to this line.
 
-Finally, I find the solution! [code is here!](https://github.com/Huilin-Li/plotly/tree/main)
+Finally, I find the solution! 
 
 <div align="center">
 <img src="../images/plane2.png" alt="" width="500" height="auto">

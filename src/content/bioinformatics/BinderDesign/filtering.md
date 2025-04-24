@@ -9,7 +9,7 @@ In my opinion, this is a very heloful step, because it greatly increase the spee
 <center>
   <figure>
     <img src=".\bioIMG\CB.png" alt=" " width="600">
-    <figcaption>fig.1 `target.pdb` and atoms where binders should bind with</figcaption>
+    <figcaption>fig.1 target.pdb and atoms where binders should bind with</figcaption>
   </figure>
 </center>
 

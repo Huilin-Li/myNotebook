@@ -11,12 +11,12 @@ Thanks a lot to the great work, [**RFdiffusion**](https://github.com/RosettaComm
 - **AlphaFold2** for evaluating designed proteins, under <code>af2_binder_design environment</code>.
 
 We will design binders under these three environments: <code>SE3nv environment</code>, <code>dl_binder_design environment</code>, <code>af2_binder_design environment</code>.
-{{< hint info >}}
+
 <details>
 <summary><b>Install these three environments</b></summary>
 Make sure you have high performance computating envrionment with CUDA, and you can access GPU and internet. Their installations can automatically install dependencied packages that fit the GPU environment which you have to use for the heavy computation.
 </details>
-{{< /hint >}}
+
 ## Quickly go through the whole process
 
 Let us say that we want to design binders for *target.pdb*, and our current directories tree is
