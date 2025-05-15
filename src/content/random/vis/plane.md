@@ -182,3 +182,77 @@ df = drawing(p1=p1, p2=p2, d01=d01, r=5)
 <img src="./img/radius.png" alt="" width="600">
 <p><em>A square plane perpendicular to a line</em></p>
 </div>
+
+4. Many plans
+
+```python
+
+random.seed(25)
+p1 = np.array([randrange(1,10) for i in range(3)])
+p2 = np.array([randrange(3,17) for i in range(3)])
+
+d01_list = [1,2,3,4,5,6]
+r_list = [7,6,5,4,3,2]
+color = ["lightgreen", "lightpink", "lightskyblue", "lightgray", "lightcoral", "lightgoldenrodyellow"]
+
+
+## line
+fig_base = go.Figure(data =[go.Scatter3d(x=[p1[0],p2[0]], y=[p1[1], p2[1]],z=[p1[2], p2[2]],
+                                    mode = "markers+lines",
+                                    marker=dict(color="gray", size=15, symbol="cross"),
+                                    line=dict(color="gray", width=5))])
+fig_base.update_layout(
+    width=1100, height=1100,
+    scene=dict(xaxis_title='x coord',yaxis_title='y coord',zaxis_title='z coord'),showlegend=False)
+
+for d01, r, c in zip(d01_list, r_list, color):
+    # p0 position
+    line = LineString([p1, p2])
+    p0_tmp = line.interpolate(d01)
+    p0 = np.array([p0_tmp.x, p0_tmp.y, p0_tmp.z])
+    # preparation
+    P1 = p0
+    P2 = p2
+    Radius = r
+    V3 = P1 - P2
+    V3 = V3 / np.linalg.norm(V3)
+    e = np.array([0,0,0])
+    e[np.argmin(np.abs(V3))] = 1
+    V1 = np.cross(e, V3)
+    V1 = V1 / np.linalg.norm(V3)
+    V2 = np.cross(V3, V1)
+
+    # p3 90 degree
+    s3 = np.pi/2
+    p3 = P1 + Radius*( np.cos(s3)*V1 + np.sin(s3)*V2 ) 
+    # p4 180 degree
+    s4 = np.pi
+    p4 = P1 + Radius*( np.cos(s4)*V1 + np.sin(s4)*V2 ) 
+    # p5 270 degree
+    s5 = np.pi*1.5
+    p5 = P1 + Radius*( np.cos(s5)*V1 + np.sin(s5)*V2 )
+    # p6 0 degree
+    s6 = 0
+    p6 = P1 + Radius*( np.cos(s6)*V1 + np.sin(s6)*V2 )
+
+    # draw
+    ## line
+    fig = go.Figure(data =[go.Scatter3d(x=[p1[0],p2[0]], y=[p1[1], p2[1]],z=[p1[2], p2[2]],
+                                        mode = "markers+lines",
+                                        marker=dict(color="gray", size=15, symbol="cross"),
+                                        line=dict(color="gray", width=5))])
+    ## plane
+    plane1_x, plane1_y, plane1_z = np.array([p6, p3, p5]).T
+    fig_base.add_trace(go.Mesh3d(x=plane1_x, y=plane1_y, z=plane1_z, color=c, name = "", hoverinfo="skip", opacity=0.50))
+
+    plane2_x, plane2_y, plane2_z = np.array([p4, p3, p5]).T
+    fig_base.add_trace(go.Mesh3d(x=plane2_x, y=plane2_y, z=plane2_z, color=c, name = "", hoverinfo="skip", opacity=0.50))
+
+
+fig_base.show()
+```
+
+<div align="center">
+<img src="./img/manyplanes.png" alt="">
+<p><em>Planes perpendicular to the line</em></p>
+</div>
