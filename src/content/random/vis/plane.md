@@ -1,5 +1,7 @@
 # Plotly: Drawing a plane perpendicular to a given line
 
+1. Explanation
+2. Example
 
 When I was working on my binder design task, I need to select suitable hotspot residues that can lead to design better binders. In addition to hydrophobic amino acids, I also want to focus on the amino acids whose positions are close to the outside edge, and far away from the center of the protein. Therefore, I expect a plane that can approximately cut the protein layer by layer with my expected distance to the outside edge.
 
@@ -12,6 +14,8 @@ Finally, I find the solution!
 <img src="./img/four.png" alt="" >
 <p><em>Planes perpendicular to the given line</em></p>
 </div>
+
+## Explanation
 
 Assuming that we want to make a plane whose vertical distance to \\(p_1\\) is \\(d_{01}\\). We can determine the point \\(p_0\) by 
 ```python
@@ -29,7 +33,7 @@ p0 = np.array([p0_tmp.x, p0_tmp.y, p0_tmp.z])
 
 
 Finding \\(p_3\\), \\(p_4\\), \\(p_5\\) and \\(p_6\\) took me lots of time. I finally find that they can be found by vector calculation. 
-For example, we want the distance between \\(p_0\\) and $p_3$/$p_4$/$p_5$/$p_6$ is $Radius = 3$. 
+For example, we want the distance between \\(p_0\\) and \\(p_3\\) or \\(/p_4\\) or \\(p_5\\) or \\(p_6\\) is \\(Radius = 3\\). 
 
 ```python
 P1 = p0
@@ -65,3 +69,18 @@ plane2_x, plane2_y, plane2_z = np.array([p4, p3, p5]).T
 fig.add_trace(go.Mesh3d(x=plane2_x, y=plane2_y, z=plane2_z, color="lightgreen", name = "", hoverinfo="skip", opacity=0.50))
 ```
 
+## Example
+
+1. `import` libraries
+
+```python
+import numpy as np
+from random import randrange
+import random
+import pandas as pd
+from shapely.geometry import LineString
+import plotly.express as px
+import plotly.graph_objects as go
+```
+
+2. 
