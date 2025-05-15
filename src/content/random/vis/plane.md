@@ -13,7 +13,7 @@ Finally, I find the solution!
 <p><em>Planes perpendicular to the given line</em></p>
 </div>
 
-Assuming that we want to make a plane whose vertical distance to \\(p1\\) is \(d_{01}\). We can determine the point \(p_0\) by 
+Assuming that we want to make a plane whose vertical distance to \\(p_1\\) is \\(d_{01}\\). We can determine the point \\(p_0\) by 
 ```python
 from shapely.geometry import LineString
 
@@ -23,11 +23,13 @@ p0 = np.array([p0_tmp.x, p0_tmp.y, p0_tmp.z])
 ```
 
 <div align="center">
-<img src="../images/plane1.png" alt="">
+<img src="./img/points.png" alt="" width="600">
 <p><em>5 important points who determine the plane</em></p>
 </div>
-Finding $p_3$, $p_4$, $p_5$ and $p_6$ took me lots of time. I finally find that they can be found by vector calculation. 
-For example, we want the distance between $p_0$ and $p_3$/$p_4$/$p_5$/$p_6$ is $Radius = 3$. 
+
+
+Finding \\(p_3\\), \\(p_4\\), \\(p_5\\) and \\(p_6\\) took me lots of time. I finally find that they can be found by vector calculation. 
+For example, we want the distance between \\(p_0\\) and $p_3$/$p_4$/$p_5$/$p_6$ is $Radius = 3$. 
 
 ```python
 P1 = p0
