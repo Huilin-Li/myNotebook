@@ -13,7 +13,7 @@ Finally, I find the solution!
 <p><em>Planes perpendicular to the given line</em></p>
 </div>
 
-Assuming that we want to make a plane whose vertical distance to \(p_1\) is \(d_{01}\). We can determine the point \(p_0\) by 
+Assuming that we want to make a plane whose vertical distance to \\(p1\\) is \(d_{01}\). We can determine the point \(p_0\) by 
 ```python
 from shapely.geometry import LineString
 
