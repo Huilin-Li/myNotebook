@@ -8,16 +8,12 @@ By calculating the centers of two parts of my protein, I can easily determine on
 Finally, I find the solution! 
 
 
-
-
-
-
 <div align="center">
 <img src="./img/four.png" alt="" >
 <p><em>Planes perpendicular to the given line</em></p>
 </div>
 
-Assuming that we want to make a plane whose vertical distance to $p_1$ is $d01$. We can determine the point $p0$ by 
+Assuming that we want to make a plane whose vertical distance to \(p_1\) is \(d_{01}\). We can determine the point \(p_0\) by 
 ```python
 from shapely.geometry import LineString
 
