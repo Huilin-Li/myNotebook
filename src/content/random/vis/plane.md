@@ -7,9 +7,14 @@ By calculating the centers of two parts of my protein, I can easily determine on
 
 Finally, I find the solution! 
 
+
+
+
+
+
 <div align="center">
-<img src="../images/plane2.png" alt="" width="500" height="auto">
-<p><em>A plane perpendicular to the given line</em></p>
+<img src="./img/four.png" alt="" >
+<p><em>Planes perpendicular to the given line</em></p>
 </div>
 
 Assuming that we want to make a plane whose vertical distance to $p_1$ is $d01$. We can determine the point $p0$ by 
