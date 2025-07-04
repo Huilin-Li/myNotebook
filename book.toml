@@ -14,7 +14,7 @@ smart-punctuation = true
 mathjax-support = true
 copy-fonts = true
 no-section-label = false
-git-repository-url = "https://github.com/rust-lang/mdBook"
+git-repository-url = "https://github.com/Huilin-Li/myNotebook"
 git-repository-icon = "fa-github"
 site-url = "/example-book/"
 
