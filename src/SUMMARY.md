@@ -32,6 +32,7 @@
 - [PyMol](content/bioinformatics/pymol.md)
 
 
+
 # Statistics
 - [Bayesian inference](content/stat/baye.md)
 
