@@ -13,7 +13,7 @@ The basic complete deep learning neural network architecture includes:
 ## Dataset
 3 samples, 2 features, 3 target labels.
 
-| Sample        | \(x_1\) | \(x_2\)  | Target (label) |
+| Sample        | \\(x_1\\) | \(x_2\)  | Target (label) |
 | ------------- | ------------- | ------------- | ------------- |
 | 1  | 0.04  | 0.42  | 0  |
 | 2  | 1 | 0.54  | 1  |
