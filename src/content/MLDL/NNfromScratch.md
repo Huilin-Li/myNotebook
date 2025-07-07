@@ -15,5 +15,8 @@ The basic complete deep learning neural network architecture includes:
 
 | Sample        | \(x_1\) | \(x_2\)  | Target (label) |
 | ------------- | ------------- | ------------- | ------------- |
-| Content Cell  | Content Cell  | Content Cell  | Content Cell  |
-| Content Cell  | Content Cell  | Content Cell  | Content Cell  |
+| 1  | 0.04  | 0.42  | 0  |
+| 2  | 1 | 0.54  | 1  |
+| 3  | 0.5  | 0.65  | 2  |
+
+## Neural Network architecture

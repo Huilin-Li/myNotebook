@@ -31,7 +31,8 @@
 
 - [PyMol](content/bioinformatics/pymol.md)
 
-
+# MLDL
+- [A Deep learning Neural Network from the scratch via Numpy/Pandas](content/MLDL/NNfromScratch.md)
 
 # Statistics
 - [Bayesian inference](content/stat/baye.md)
