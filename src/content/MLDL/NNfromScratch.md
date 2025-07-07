@@ -20,3 +20,35 @@ The basic complete deep learning neural network architecture includes:
 | 3  | 0.5  | 0.65  | 2  |
 
 ## Neural Network architecture
+<div align="center">
+<img src="./pics/writing1-1.png" alt="" >
+</div>
+
+<div align="center">
+<img src="./pics/writing1-2.png" alt="" >
+</div>
+
+
+<div align="center">
+<img src="./pics/writing1-3.png" alt="" >
+</div>
+
+<div align="center">
+<img src="./pics/writing1-4.png" alt="" >
+</div>
+
+<div align="center">
+<img src="./pics/writing1-5.png" alt="" >
+</div>
+
+<div align="center">
+<img src="./pics/writing1-6.png" alt="" >
+</div>
+
+<div align="center">
+<img src="./pics/writing1-7.png" alt="" >
+</div>
+
+<div align="center">
+<img src="./pics/writing1-8.png" alt="" >
+</div>
