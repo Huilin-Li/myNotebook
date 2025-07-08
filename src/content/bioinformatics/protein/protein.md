@@ -69,7 +69,7 @@ The linked series of carbon, nitrogen and oxygen atoms make up the <mark>protein
 </center>
 
 ### Tertiary structure
-> 
+> 3D shape of the protein
 
 <center>
   <figure>
@@ -77,3 +77,6 @@ The linked series of carbon, nitrogen and oxygen atoms make up the <mark>protein
     <figcaption>ref: https://pdb101.rcsb.org/learn/videos </figcaption>
   </figure>
 </center>
+
+### Quaternary structure
+> 
