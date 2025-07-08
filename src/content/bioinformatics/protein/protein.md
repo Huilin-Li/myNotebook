@@ -1,5 +1,13 @@
 # Protein ([PDB-101](https://pdb101.rcsb.org/learn/videos))
 
+> from https://en.wikipedia.org/wiki/Protein
+> - A linear chain of amino acid residues is called a <mark>polypeptide</mark>.
+> -  Short polypeptides, containing less than 20–30 residues, are rarely considered to be proteins and are commonly called <mark>peptides</mark>.
+> - The amino acids in a polypeptide chain are linked by <mark>peptide bonds</mark> between amino (-NH2) and carboxyl group (-COOH). 
+> - An individual amino acid in a chain is called a <mark>residue</mark>.
+> - A polypeptide chain ends with a free amino group, known as the N-terminus or amino terminus, and a free carboxyl group, known as the C-terminus or carboxy terminus
+
+
 All proteins are made of 21 amino acids.
 <center>
   <figure>
@@ -79,4 +87,4 @@ The linked series of carbon, nitrogen and oxygen atoms make up the <mark>protein
 </center>
 
 ### Quaternary structure
-> 
+> Two or more polypeptide chains come together to form one fucntional molecule wih several subunits.
