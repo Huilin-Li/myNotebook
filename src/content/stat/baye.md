@@ -43,7 +43,7 @@ Pr(A|B) = \frac{Pr(B|A)Pr(A)}{Pr(B)}
 ## Bayesian inference
 > The core of Bayesian Statistics is to update our understanding of unknown parameters through new observational data/evidence.
 
-For example, we are curious to know a unknow \(\theta\), and we guess its prior is \\(Pr(\theta)\\). We have a sequence of observations \(D\). We hope \(D\) can help us better to understand \\(Pr(\theta)\\). It is that we are intersted in \\(Pr(\theta|D)\\). According to Bayes' rule, we know:
+For example, we are curious to know a unknow \(\theta\), and we guess its prior is \\(Pr(\theta)\\). We have a sequence of observations \(D\). We hope \\(D\\) can help us better to understand \\(Pr(\theta)\\). It is that we are intersted in \\(Pr(\theta|D)\\). According to Bayes' rule, we know:
 
 \\[
 Pr(\theta|D) = \frac{Pr(D|\theta)Pr(\theta)}{Pr(D)}
