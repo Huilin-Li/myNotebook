@@ -37,6 +37,7 @@
 - [A Deep learning Neural Network from the scratch via Numpy/Pandas](content/MLDL/NNfromScratch.md)
 
 # Statistics
+- [Paird t-Test](content/stat/ttest.md)
 - [Bayesian inference](content/stat/baye.md)
 
 
