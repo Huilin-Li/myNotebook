@@ -1,3 +1,5 @@
 # Bio mining notes
 
-1. PARSE nodes.dmp
+- PARSE nodes.dmp
+- PARSE json from foldseek search server
+
