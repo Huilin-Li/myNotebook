@@ -4,6 +4,8 @@
 
 
 # Bioinformarics
+- [Bio mining notes](content/bioinformatics/NOTES/readme.md)
+    - [Taxonomy NCBI](content/bioinformatics/NOTES/TaxIdNCBI.md)
 - [Binder design](content/bioinformatics/BinderDesign/readme.md)
     - [preprocessing](content/bioinformatics/BinderDesign/truncation.md)
     - [design](content/bioinformatics/BinderDesign/design.md)
