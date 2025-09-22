@@ -6,9 +6,6 @@
 ## PDB database
 ### download
 1. https://files.rcsb.org/pub/pdb/data/structures/all/pdb/
-
-<p><img src="./img/pdb_db.png" width="500" alt=" "></P>
-
 2. save this website as *PDB - FTP Archive over HTTP.html*
 3. extract *pdbXXXX.ent.gz* list
 ```python
@@ -29,9 +26,9 @@ for line in lines:
 # PDB_id_list[:5]
 # ['100d', '101d', '101m', '102d', '102l']
 ```
-
-> Is's not okay to extract *id* by `.split("pdb")`. Because *pdb* might be also the part of the *id* in some special cases, for example, *pdb1pdb.ent.gz*.
-
+<div class="warning">
+It's not okay to extract *id* by `.split("pdb")`. Because *pdb* might be also the part of the *id* in some special cases, for example, *pdb1pdb.ent.gz*.
+</div>
 
 4. parallel downloads
 ```python
