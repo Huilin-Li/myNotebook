@@ -53,6 +53,7 @@
     - [Drawing a plane perpendicular to a given line](content/random/vis/plane.md)
     - [Plotly color](content/random/vis/plotlycolor.md)
     - [Movies](content/random/vis/movies.md)
+- [mdbook usage](content/random/mdbook.md)
 - [Hugo: Book theme](content/random/HugoBookGithubAction.md)
 - [Hugo](content/random/hugo.md)
 - [resources](content/random/resources.md)

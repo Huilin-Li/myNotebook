@@ -26,11 +26,8 @@ for line in lines:
 # PDB_id_list[:5]
 # ['100d', '101d', '101m', '102d', '102l']
 ```
-<div class="warning">
 
-It's not okay to extract *id* by `.split("pdb")`. Because *pdb* might be also the part of the *id* in some special cases, for example, *pdb1pdb.ent.gz*.
-
-</div>
+> It's not okay to extract *id* by `.split("pdb")`. Because *pdb* might be also the part of the *id* in some special cases, for example, *pdb1pdb.ent.gz*.
 
 4. parallel downloads
 ```python
@@ -65,10 +62,8 @@ where *entry_list.txt* has *entry_i.txt* line by line.
 ```shell
 $ bash parallel_download.sh > download.log 
 ```
-<div class="warning">
-*Failed download* is common when Shell script downloads large files simutaneously. Therefore, it is important to check whether the script has downloaded the complete and correct *ent.gz* files. For example, by `gunzip *gz`, the wrong *.gz* files will output `unzip error`. And then, this wrong *.gz* file should be removed and we need to download it again.
 
-
+> *Failed download* is common when Shell script downloads large files simutaneously. Therefore, it is important to check whether the script has downloaded the complete and correct *ent.gz* files. For example, by `gunzip *gz`, the wrong *.gz* files will output `unzip error`. And then, this wrong *.gz* file should be removed and we need to download it again.
 
 ### desciption
 At this moment, I download 218,546 PDB entries from PDB database. 
@@ -83,34 +78,8 @@ At this moment, I download 218,546 PDB entries from PDB database.
 ## Swiss-Prot database
 ### download
 [UniProt](https://www.uniprot.org/uniprotkb?query=*&facets=reviewed%3Atrue) provides the reviewed Swiss-Prot database.
-<center>
-  <figure>
-    <img src="./img/uniprot.png" alt=" " width="600">
-    <figcaption>Fig.1 the Entry from UniProt</figcaption>
-  </figure>
-</center>
 
-
-With the help of [unipressed](https://github.com/multimeric/Unipressed), I can quickly analyze the reviewed Swiss-Prot database. There are 22,140 enries whose 3D structure information are not stored. In the remaining 549,724 entries who have 3D structures, 33,725 entries have 3D structure from both [Alphafold Protein Structure Database](https://alphafold.ebi.ac.uk/download#swissprot-section) and [PDB database](https://www.rcsb.org/docs/programmatic-access/file-download-services); 2,194 entries only have 3D structure from [PDB database](https://www.rcsb.org/docs/programmatic-access/file-download-services); 513,805 entries only have 3D structure from [Alphafold Protein Structure Database](https://alphafold.ebi.ac.uk/download#swissprot-section).
-
-I compared the dataset that is already compressed in [Alphafold Protein Structure Database](https://alphafold.ebi.ac.uk/download#swissprot-section) (Fig.2) and the 513,805 entries who only have [Alphafold Protein Structure Database](https://alphafold.ebi.ac.uk/download#swissprot-section) 3D structure as recorded in [UniProt](https://www.uniprot.org/uniprotkb?query=*&facets=reviewed%3Atrue) (Fig.1). 4,274 entries' structures in (Fig.1) have not been stored in (Fig.2). 
-
-> To minimize duplications between the UniProt Swiss-Prot database and the PDB database, I focused on downloading the structures of 513,805 entries from UniProt (Swiss-Prot) that are only available in the Alphafold Protein Structure Database. Therefore, I only need to download 4,274 entries' structures, because the remaining 509,531 entries' structures can be directly extracted from (Fig.2).
-
-<center>
-  <figure>
-    <img src="./img/afdb_sprot.png" alt=" " width="600">
-    <figcaption>Fig.2 compressed prediction files for Swiss-Prot from Alphafold Protein Structure Database</figcaption>
-  </figure>
-</center>
-
-
-
-
-
-
-
-
+### [Unipressed](https://github.com/multimeric/Unipressed) API client
 
 ### description
 In *UniProt*,  Swiss-Prot has 571,864 entries with its corresponding fasta file. 549,724 entries have 3D struture. And most (513,805) of these structure are from AlphaFold prediction.
@@ -124,14 +93,7 @@ In *UniProt*,  Swiss-Prot has 571,864 entries with its corresponding fasta file.
 
 ## OMG_Prot50 database
 ### download
-1.[huggingface.co/datasets/tattabio/OMG_prot50](https://huggingface.co/datasets/tattabio/OMG_prot50?sql=--+The+SQL+console+is+powered+by+DuckDB+WASM+and+runs+entirely+in+the+browser.%0A--+Get+started+by+typing+a+query+or+selecting+a+view+from+the+options+below.%0ASELECT+*+FROM+train+LIMIT+10%3B)
-
-<iframe
-  src="https://huggingface.co/datasets/tattabio/OMG_prot50/embed/viewer/default/train"
-  frameborder="0"
-  width="90%"
-  height="560px"
-></iframe>
+[huggingface.co/datasets/tattabio/OMG_prot50](https://huggingface.co/datasets/tattabio/OMG_prot50?sql=--+The+SQL+console+is+powered+by+DuckDB+WASM+and+runs+entirely+in+the+browser.%0A--+Get+started+by+typing+a+query+or+selecting+a+view+from+the+options+below.%0ASELECT+*+FROM+train+LIMIT+10%3B)
 
 ### description
 > The `OMG_prot50` dataset is a protein-only dataset, created by clustering the Open MetaGenomic dataset (OMG) at 50% sequence identity.
