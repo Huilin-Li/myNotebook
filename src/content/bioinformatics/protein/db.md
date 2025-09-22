@@ -27,7 +27,9 @@ for line in lines:
 # ['100d', '101d', '101m', '102d', '102l']
 ```
 <div class="warning">
+
 It's not okay to extract *id* by `.split("pdb")`. Because *pdb* might be also the part of the *id* in some special cases, for example, *pdb1pdb.ent.gz*.
+
 </div>
 
 4. parallel downloads
@@ -58,17 +60,13 @@ cd /(your path)
 for line in $(cat ./../groups/entry_list.txt); do
    ./../batch_download.sh -f ./../groups/${line} -p &
 done
-
-# while IFS= read -r line; do
-#    ./../batch_download.sh -f ./../groups/${line} -p &
-# done < <(grep "" ./../groups/entry_list.txt)
 ```
 where *entry_list.txt* has *entry_i.txt* line by line.
 ```shell
 $ bash parallel_download.sh > download.log 
 ```
-
-> *Failed download* is common when Shell script downloads large files simutaneously. Therefore, it is important to check whether the script has downloaded the complete and correct *ent.gz* files. For example, by `gunzip *gz`, the wrong *.gz* files will output `unzip error`. And then, this wrong *.gz* file should be removed and we need to download it again.
+<div class="warning">
+*Failed download* is common when Shell script downloads large files simutaneously. Therefore, it is important to check whether the script has downloaded the complete and correct *ent.gz* files. For example, by `gunzip *gz`, the wrong *.gz* files will output `unzip error`. And then, this wrong *.gz* file should be removed and we need to download it again.
 
 
 
