@@ -17,6 +17,7 @@ no-section-label = false
 git-repository-url = "https://github.com/Huilin-Li/myNotebook"
 git-repository-icon = "fa-github"
 site-url = "/example-book/"
+additional-css = ["theme/css/custom.css"]
 
 [output.html.fold]
 enable = false    # whether or not to enable section folding
