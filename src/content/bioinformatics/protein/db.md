@@ -1,8 +1,8 @@
 - PDB database
 - Swiss-Prot database (AI-predicted structures)
 - OMG_Prot50 (Proteins are transcribed from the Open MetaGenomic.)
-
-
+- malidup
+- malisam
 ## PDB database
 ### download
 1. https://files.rcsb.org/pub/pdb/data/structures/all/pdb/
@@ -98,3 +98,13 @@ In *UniProt*,  Swiss-Prot has 571,864 entries with its corresponding fasta file.
 ### description
 > The `OMG_prot50` dataset is a protein-only dataset, created by clustering the Open MetaGenomic dataset (OMG) at 50% sequence identity.
 > MMseqs2 linclust (Steinegger and Söding 2018) was used to cluster all 4.2B protein sequences from the OMG dataset, resulting in 207M protein sequences. Sequences were clustered at 50% sequence id and 90% sequence coverage, and singleton clusters were removed.
+
+## malidup
+http://prodata.swmed.edu/malidup/
+
+
+## malisam
+http://prodata.swmed.edu/malisam/
+
+## Transporter Classification Database (TCDB)
+The Transporter Classification Database (TCDB) is specialized with respect to curated information about the functions and evolution of transporters from all domains of life [Saier et al., 2021].
