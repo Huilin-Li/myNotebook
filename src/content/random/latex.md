@@ -1,4 +1,11 @@
-# overleaf
+# Overleaf+Latx+Zotero
+
+### 
+
+https://medium.com/@nooraaz/use-zotero-in-overleaf-without-premium-251fcfd7f369
+
+https://retorque.re/zotero-better-bibtex/
+
 
 ```
 % paragraph spacing
