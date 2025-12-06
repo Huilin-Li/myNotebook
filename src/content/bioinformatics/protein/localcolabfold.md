@@ -1,118 +1,72 @@
-# localcolabfold usage (history)
+# localcolabfold usage (straightforward)
+[localcolabfold](https://github.com/YoshitakaMo/localcolabfold) is [ColabFold](https://colab.research.google.com/github/sokrypton/ColabFold/blob/main/AlphaFold2.ipynb) for protein structure prediction on local PC.
+
+## One protein prediction in command line
+1. msa only 
+```
+conda activate /(...)/lihuilin/mycolabfold/localcolabfold/colabfold-conda
+
+module load cuda/12.0
+
+colabfold_batch fafile outdir --msa-only
+```
+
+2. GPU prediction
+```
+conda activate /(...)/lihuilin/mycolabfold/localcolabfold/colabfold-conda
+
+module load cuda/12.0
+module load gcc/9.4.0
+
+colabfold_batch fafile outdir --num-relax 1
+```
+
+## Multiple proteins prediction in slurm scrpits
+1. msa only 
+```
+#!/bin/bash
+
+source ~/miniconda3/etc/profile.d/conda.sh
+conda activate /(...)/lihuilin/mycolabfold/localcolabfold/colabfold-conda
+
+module load cuda/12.0
+
+cd /(...)/fasta_files
+
+INPUT_FILES=($(ls *.fasta))
+INPUT=${INPUT_FILES[$SLURM_ARRAY_TASK_ID-1]}
+OUTPUT="${INPUT%.*}_out"
 
 
-### slurm scripts
+colabfold_batch $INPUT $OUTPUT --msa-only
 
+```
+2. GPU prediction
 ```
 #!/bin/bash
 #SBATCH -q gpu-huge
 #SBATCH --nodes=1
-#SBATCH --ntasks-per-node=8
-#SBATCH -p a40-tmp
+#SBATCH -p a100-40g
 #SBATCH --gres=gpu:1
-#SBATCH --mem=50G
-#SBATCH -J array-job					
-#SBATCH -a 1-2
-#SBATCH -o xxx.%A.%a.log
-
-
-
-module load cuda/12.0
-module load gcc/9.4.0
-
-source ~/miniconda3/etc/profile.d/conda.sh
-conda activate /(...)/lihuilin/mycolabfold/localcolabfold/colabfold-conda
-
-cd /(...)/lihuilin/mycolabfold/mypredictions/xxx_remain
-
-id_list="./names.txt"
-id=`head -n $SLURM_ARRAY_TASK_ID $id_list | tail -n 1`
-
-
-fafile=$id".fa"
-outdir=$id"_out"
-colabfold_batch $fafile $outdir --num-relax 1
-
-```
-
-
-```
-#!/bin/bash
-#SBATCH -q gpu-huge
-#SBATCH --nodes=1
-#SBATCH --ntasks-per-node=8
-#SBATCH -p a40-tmp
-#SBATCH --gres=gpu:1 
-#SBATCH --mem=50G
+#SBATCH --mem=80G
+#SBATCH -J JobName					
+#SBATCH -a 1-4
 
 
 module load cuda/12.0
 module load gcc/9.4.0
 
 source ~/miniconda3/etc/profile.d/conda.sh
-conda activate /(...)/lihuilin/mycolabfold/localcolabfold/colabfold-conda
+conda activate /storage/(...)/lihuilin/mycolabfold/localcolabfold/colabfold-conda
+
+cd /(...)/fasta_files
+
+INPUT_FILES=($(ls *.fasta))
+INPUT=${INPUT_FILES[$SLURM_ARRAY_TASK_ID-1]}
+OUTPUT="${INPUT%.*}_out"
 
 
-for fa in myfa1 myfa2 myfa3 myfa4
-do
-    echo "start "$fa"predict"
-    cd /(...)/lihuilin/mycolabfold/mypredictions/yyyfastas
-    fafile=$fa".fa"
-    outdir=$fa"_out"
-    colabfold_batch $fafile $outdir --num-relax 3
-    echo "end "$fa"predict"
-done
-
-
+colabfold_batch $INPUT $OUTPUT --num-relax 1
 ```
 
 
-```
-#!/bin/bash
-#SBATCH -q gpu-huge
-#SBATCH --nodes=1
-#SBATCH --ntasks-per-node=8
-#SBATCH -p a40-tmp
-#SBATCH --gres=gpu:1 
-#SBATCH --mem=50G
-
-
-module load cuda/12.0
-module load gcc/9.4.0
-
-source ~/miniconda3/etc/profile.d/conda.sh
-conda activate /(...)/lihuilin/mycolabfold/localcolabfold/colabfold-conda
-
-
-
-
-cd /(...)/lihuilin/mycolabfold/mypredictions/aaa_remain
-
-
-colabfold_batch myfa2.fa myfa2_out --num-relax 1
-
-
-```
-
-### msa only shell script
-
-```
-#!/bin/bash
-
-source ~/miniconda3/etc/profile.d/conda.sh
-conda activate /(...)/lihuilin/mycolabfold/localcolabfold/colabfold-conda
-
-module load cuda/12.0
-
-
-for fa in myfa0 myfa1 myfa2
-do
-    echo "start "$fa
-    cd /(...)/lihuilin/mycolabfold/mypredictions/myfastas
-    fafile=$fa".fa"
-    outdir=$fa"_out"
-    colabfold_batch $fafile $outdir --msa-only
-    echo "end "$fa
-done
-
-```
