@@ -1,4 +1,4 @@
-# .cif to .pdb
+## .cif to .pdb
 
 ## PyMol
 File > Export Structure > Export Molecule > Save > change "save as type"

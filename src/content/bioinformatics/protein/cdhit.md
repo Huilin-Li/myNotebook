@@ -1,7 +1,7 @@
-# CD-HIT
+## CD-HIT
+
 
 ```
-
 from pycdhit import read_fasta, cd_hit, read_clstr, CDHIT
 
 
