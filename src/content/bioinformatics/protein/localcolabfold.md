@@ -11,6 +11,7 @@ module load cuda/12.0
 colabfold_batch fafile outdir --msa-only
 ```
 
+
 2. GPU prediction
 ```
 conda activate /(...)/lihuilin/mycolabfold/localcolabfold/colabfold-conda
@@ -22,7 +23,7 @@ colabfold_batch fafile outdir --num-relax 1
 ```
 
 ## Multiple proteins prediction in slurm scrpits
-1. msa only 
+1. msa only: msaonly.sh
 ```
 #!/bin/bash
 
@@ -41,6 +42,8 @@ OUTPUT="${INPUT%.*}_out"
 colabfold_batch $INPUT $OUTPUT --msa-only
 
 ```
+bash msaonly.sh
+
 2. GPU prediction
 ```
 #!/bin/bash

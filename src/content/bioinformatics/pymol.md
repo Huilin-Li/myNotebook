@@ -13,4 +13,7 @@ cmd.get_wizard().do_select("chain A and resid 22")
 cmd.get_wizard().apply()
 cmd.save("mutated_target.pdb")
 ```
-
+- save as .pdb file.
+```
+File > Export Structure > Export Molecule > Save > change "save as type"
+```

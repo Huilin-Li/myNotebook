@@ -22,26 +22,33 @@
 import itertools
 import os, gzip, shutil
 
+## roginal name 2 daliname
 def generate_unique_names():
     # Create a pool of characters: A-Z, 0-9
-
     characters = 'abcdefghijklmnopqrstuvwxyz0123456789'
-    
     # Generate all combinations of 4 characters
     unique_names = [''.join(comb) for comb in itertools.product(characters, repeat=4)]
-    
     return unique_names
 
-# Example usage
 unique_names = generate_unique_names()
 
-# Print the first 10 unique names
-characters = 'abcdefghijklmnopqrstuvwxyz0123456789'
-print([''.join(comb) for comb in itertools.product(characters, repeat=4)])
+orginalPDB_path = "./PDB/"
+orginalPDB_fps = glob.glob(os.path.join(orginalPDB_path, "*.pdb"))
+daliPDB_path = "./daliPDB/"
 
+orig2dali_rows = [] 
 
+for i in range(len(orginalPDB_fps)):
+    fp = orginalPDB_fps[i]
+    origname = fp.split("\\")[-1]
+    daliname = unique_names[i]
+    row = {"orginalPDB":origname, "daliPDB":daliname}
+    orig2dali_rows.append(row)
 
-shutil.copyfile("old_path/" + old_name + ".pdb", "new_path/" + new_name + ".pdb")
+orig2dali_df = pd.DataFrame(orig2dali_rows)
+orig2dali_df.to_csv("orig2dali_df.csv")
+
+shutil.copyfile(fp, daliPDB_path + daliname + ".pdb")
 
 ```
 
