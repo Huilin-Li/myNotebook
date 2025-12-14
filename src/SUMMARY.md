@@ -31,8 +31,8 @@
     - [Biopython](content/bioinformatics/protein/biopython.md)
     - [unipressed.UniprotkbClient](content/bioinformatics/protein/uniprotana.md)
     - [daliLite V5 usage](content/bioinformatics/protein/dali.md)
-    - [cif2pdb](/content/bioinformatics/protein/cif2pdb.md)
-    - [CD-HIT](/content/bioinformatics/protein/cdhit.md)
+    - [cif2pdb](content/bioinformatics/protein/cif2pdb.md)
+    - [CD-HIT](content/bioinformatics/protein/cdhit.md)
 
 
 - [PyMol](content/bioinformatics/pymol.md)

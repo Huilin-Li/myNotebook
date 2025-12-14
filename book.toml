@@ -1,7 +1,6 @@
 [book]
 authors = ["Huilin-Li"]
 language = "en"
-multilingual = false
 src = "src"
 title = "Huilin's Book"
 
