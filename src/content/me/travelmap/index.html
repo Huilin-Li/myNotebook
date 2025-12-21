@@ -23,7 +23,7 @@
 
             function addMarker(map, latitude, longitude, cityid) {
                 var pos = projectAbsolute(latitude, longitude, 1000, 1, -26, 0); //-25, 2.7);
-                map.shape('<image href="location.svg" class="citymarker" height="3" width="4" style="transform:scale(4); transform-box: fill-box; transform-origin: 50% 50%" x="' + pos.x + '" y="' + pos.y + '" id="cm_' + cityid + '"/>');
+                map.shape('<image href="./location.svg" class="citymarker" height="3" width="4" style="transform:scale(4); transform-box: fill-box; transform-origin: 50% 50%" x="' + pos.x + '" y="' + pos.y + '" id="cm_' + cityid + '"/>');
             }
             
             function getCountry(iso) {

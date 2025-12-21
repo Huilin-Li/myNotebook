@@ -1,0 +1,15 @@
+
+.full-bleed {
+  width: 100vw;
+  margin-left: calc(50% - 50vw);
+  margin-right: calc(50% - 50vw);
+}
+
+
+.full-bleed iframe {
+  display: block;
+  width: 100%;
+  height: min(80vh, 900px); /* 你可以调：80vh / 70vh / 650px */
+  border: 0;
+  border-radius: 12px;      /* 可选：更好看 */
+}
