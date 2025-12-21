@@ -23,7 +23,7 @@
 
             function addMarker(map, latitude, longitude, cityid) {
                 var pos = projectAbsolute(latitude, longitude, 1000, 1, -26, 0); //-25, 2.7);
-                map.shape('<image href="../location.svg" class="citymarker" height="3" width="4" style="transform:scale(4); transform-box: fill-box; transform-origin: 50% 50%" x="' + pos.x + '" y="' + pos.y + '" id="cm_' + cityid + '"/>');
+                map.shape('<image href="location.svg" class="citymarker" height="3" width="4" style="transform:scale(4); transform-box: fill-box; transform-origin: 50% 50%" x="' + pos.x + '" y="' + pos.y + '" id="cm_' + cityid + '"/>');
             }
             
             function getCountry(iso) {
@@ -154,13 +154,13 @@
                 var options = { 
                     showLabels: false, // Hide country labels
                     showInfoBox: true, // Show info box
-                    timeControls: true, // Time data to activate time antimation controls
+                    timeControls: false, // Time data to activate time antimation controls
                     timePause: true, // Set pause to false for autostart
                     timeLoop: false, // Loop time animation
                     bigMap: true
                 };
                 // Startup SVG World Map
-                myWorldMap = await svgWorldMap(options, false, timeData);
+                myWorldMap = await svgWorldMap(options);
                 // SvgPanZoom 
                 svgPanZoom(myWorldMap.worldMap, { minZoom: 1, dblClickZoomEnabled: false, onZoom: zoomMap, maxZoom: 20 }); 
                 
@@ -187,7 +187,7 @@
                 
                 console.log("Countries: " + count_country + ", States: " + count_state + ", Cities: " + count_city);
                 document.getElementById("stat").innerHTML = "<a href='#' onclick='countryList();'>Countries: </a><b>" + count_country + "</b> &nbsp; <a href='#' onclick='stateList();'>States: </a><b>" + count_state + "</b> &nbsp; Cities: <b>" + count_city + "</b>";
-                marker = document.getElementById("svg-world-map").contentDocument.getElementsByClassName("citymarker");
+                marker = document.getElementsByClassName("citymarker");
                 for(let m of marker) {
                     m.addEventListener("click", function() {
                         cityInfo(parseInt(this.id.split("_")[1]));
@@ -195,7 +195,8 @@
                 }
 
                 // Fadein with opacity 
-                document.getElementById('svg-world-map-container').style.opacity = 1;
+                var ctn = document.getElementById('svg-world-map-container');
+                if (ctn) ctn.style.opacity = 1;
             }
 
             // Custom callback function for map click, defined in 'options.mapClick'
