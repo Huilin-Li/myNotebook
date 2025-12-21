@@ -111,8 +111,16 @@
                 // Startup SVG World Map
                 myWorldMap = await svgWorldMap(options);
                 // SvgPanZoom 
-                svgPanZoom(myWorldMap.worldMap, { minZoom: 1, dblClickZoomEnabled: false, onZoom: zoomMap, maxZoom: 20 }); 
-                
+                svgPanZoom(myWorldMap.worldMap, {
+                    zoomEnabled: false,           // 禁用缩放（含滚轮）
+                    panEnabled: false,            // 禁用拖动平移
+                    mouseWheelZoomEnabled: false, // 禁用滚轮缩放
+                    dblClickZoomEnabled: false,   // 禁用双击缩放
+                    controlIconsEnabled: false,   // 不显示控制按钮
+
+                    fit: true,                    // 自动适配容器
+                    center: true                  // 自动居中
+                    });                
                 var count_country = 0, count_state = 0;
                 forEachCountry(function(country) {
                     var c = iso3to2(country.id);
