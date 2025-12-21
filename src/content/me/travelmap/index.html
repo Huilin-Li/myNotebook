@@ -8,8 +8,6 @@
 	</head>
 	<body>
         <div id="info" class="box hidden time"></div>
-        <div id="timeline" class="box" style="height: 80vh;"></div>
-        <div id="stat" class="box" style="left: 1em;"></div>
         <script src="scripts/jquery-3.6.0.min.js"></script>
         <script src="scripts/svg-world-map.js"></script>
         <script src="scripts/robinson.js"></script>
@@ -112,7 +110,6 @@
             });
             var timeData = [];
             var accumulated = [];
-            document.getElementById("timeline").innerHTML = "<div><input type='checkbox' checked='checked' id='citymarker_switch' name='citymarker_switch' style='width: 20%;' onchange='toggleMarker();'><label for='citymarker_switch'>City marker</label></div><br/>";
             for(var y in years) {
                 var clist = [];
                 for(var c in years[y]) {
@@ -186,7 +183,6 @@
                 });
                 
                 console.log("Countries: " + count_country + ", States: " + count_state + ", Cities: " + count_city);
-                document.getElementById("stat").innerHTML = "<a href='#' onclick='countryList();'>Countries: </a><b>" + count_country + "</b> &nbsp; <a href='#' onclick='stateList();'>States: </a><b>" + count_state + "</b> &nbsp; Cities: <b>" + count_city + "</b>";
                 marker = document.getElementsByClassName("citymarker");
                 for(let m of marker) {
                     m.addEventListener("click", function() {
