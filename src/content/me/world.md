@@ -1,7 +1,11 @@
 # World
 
 
-
+<iframe
+  src="visited_places/index.html"
+  style="width: 100%; height: 600px; border: none;"
+  loading="lazy">
+</iframe>
 
 
 
