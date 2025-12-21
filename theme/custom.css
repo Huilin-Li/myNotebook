@@ -1,4 +1,4 @@
 
-.world-page ~ * {
+main:has(.world-page) {
   --content-max-width: 1100px;
 }
