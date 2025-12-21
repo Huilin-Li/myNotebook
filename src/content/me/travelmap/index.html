@@ -21,7 +21,7 @@
 
             function addMarker(map, latitude, longitude, cityid) {
                 var pos = projectAbsolute(latitude, longitude, 1000, 1, -26, 0); //-25, 2.7);
-                map.shape('<image href="./location.svg" class="citymarker" height="3" width="4" style="transform:scale(4); transform-box: fill-box; transform-origin: 50% 50%" x="' + pos.x + '" y="' + pos.y + '" id="cm_' + cityid + '"/>');
+                map.shape('<image href="location.svg" class="citymarker" height="3" width="4" style="transform:scale(4); transform-box: fill-box; transform-origin: 50% 50%" x="' + pos.x + '" y="' + pos.y + '" id="cm_' + cityid + '"/>');
             }
             
             function getCountry(iso) {
@@ -90,54 +90,6 @@
                 count_city++;
             });
             
-            var years = {};
-            forEachCity(function(city, state, country) {
-                for(let desc of city.description.split("\n")) {
-                    var info = desc.split(", ");
-                    if(info.length >= 2) {
-                        var year = parseInt(info[info.length - 1]);
-                        if(!(year in years)) {
-                            years[year] = {};
-                        }
-                        if(!(country.id in years[year])) {
-                            years[year][country.id] = [];
-                        }
-                        if(!(city in years[year][country.id])) {
-                            years[year][country.id].push(city);
-                        }
-                    }
-                }
-            });
-            var timeData = [];
-            var accumulated = [];
-            for(var y in years) {
-                var clist = [];
-                for(var c in years[y]) {
-                    if(!(c in accumulated)) accumulated.push(c);
-                    if(!(c in clist)) {
-                        for(let cty of years[y][c]) {
-                            cty.country = c;
-                        }
-                        clist.push(years[y][c]);
-                    }
-                }
-                var obj = {};
-                obj[y] = {};
-                for(let c of countries) {
-                    obj[y][iso3to2(c)] = baseColor;
-                }
-                for(let c of accumulated) {
-                    obj[y][iso3to2(c)] = highColor;
-                }
-                timeData.push(obj);
-                var html = document.getElementById("timeline").innerHTML;
-                html += "<br><b onclick=\"$('#yit_" + y + "').toggle();\" style='cursor: default;'><i class='flaticon-play' style='zoom: 0.7;'></i> " + y + "</b><br><div id='yit_" + y + "' style='display:none; padding-top: 0.4em;'>";
-                for(let city of [...new Set(clist.flat())]) {
-                     html += "&nbsp;<a href='#' onclick='cityInfo(" + city.id + ");'><img src='flags/4x3/" + iso3to2(city.country).toLowerCase() + ".svg' width='14'> " + city.name + "</a><br>";
-                }
-                html += "</div>";
-                document.getElementById("timeline").innerHTML = html;
-            }
             
             
 
