@@ -11,22 +11,67 @@ var data = {
         {
           "name": "TianJing",
           "description": "",
-          "coordinates": [39.0851, 117.1994]
+          "coordinates": [39.08620397844366, 117.18700365214389]
         },
         {
           "name": "ShiJiaZhuang",
           "description": "",
-          "coordinates": [38.0428, 114.5143]
+          "coordinates": [38.04022733118402, 114.51254818057613]
         },
         {
           "name": "ShangHai",
           "description": "",
-          "coordinates": [31.2304, 121.4737]
+          "coordinates": [31.23214889029284, 121.50005620419265]
         },
         {
           "name": "WuZhen",
           "description": "",
-          "coordinates": [30.7426, 120.4878]
+          "coordinates": [30.74931184849387, 120.48917616528973]
+        },
+        {
+          "name": "NanXun",
+          "description": "",
+          "coordinates": [30.87926438039111, 120.41313668959768]
+        },
+        {
+          "name": "QianDaoHu",
+          "description": "",
+          "coordinates": [29.60634643327233, 118.98903501792208]
+        },
+        {
+          "name": "SuZhou",
+          "description": "",
+          "coordinates": [31.298911610642715, 120.5763139152111]
+        },
+        {
+          "name": "ShaoXing",
+          "description": "",
+          "coordinates": [29.9968083285177, 120.58699898857066]
+        },
+        {
+          "name": "ChangSha",
+          "description": "",
+          "coordinates": [28.230491971342982, 112.94836866331508]
+        },
+        {
+          "name": "WuHan",
+          "description": "",
+          "coordinates": [30.595795574095888, 114.30449371862275]
+        },
+        {
+          "name": "ShenZhen",
+          "description": "",
+          "coordinates": [22.548734964813733, 114.04906094070813]
+        },
+        {
+          "name": "NanNing",
+          "description": "",
+          "coordinates": [22.81924774235133, 108.36432281847081]
+        },
+        {
+          "name": "HangZhou",
+          "description": "",
+          "coordinates": [30.279078154097384, 120.15402678134399]
         }
       ]
     },
