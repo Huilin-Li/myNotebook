@@ -35,3 +35,9 @@
 
 9. The farther apart two genes lie on a chromosome, the more likely such recombination between them will be.
 10. **In the transcription step, RNA polymerase makes a messenger RNA, which is a copty of the information in the gene. In the translation step, ribosomes read the mRNA and make the protein.**
+11. DNA adn RNA are chain-like moleculars, and they are made of subunites called nucleotides.
+12. The nucleotides contain a base linked to 1'-position(one prime position) of a sugar (ribose in RNA or deoxyribose in DNA) and a phosphate group.
+13. The phosphate joins the sugars in a DNA or RNA chain through their 5'- and 3'-hydroxyl groups by phosphodiester bonds.
+14. adenin, thymin, guanine, cytosine.
+15. Certain viruses contain genes made of RNA instead of DNA.
+16. 

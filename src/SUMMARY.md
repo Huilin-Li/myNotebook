@@ -2,6 +2,11 @@
 
 [Huilin's Notebook](README.md)
 
+# Molecular Biology
+- [Gene](content/bioinformatics/MolecularBiology/note1.md)
+- [Protein](content/bioinformatics/MolecularBiology/note2.md)
+
+
 
 # Bioinformarics
 - [Bio mining notes](content/bioinformatics/NOTES/readme.md)
