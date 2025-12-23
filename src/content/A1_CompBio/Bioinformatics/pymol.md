@@ -28,6 +28,5 @@ File > Export Structure > Export Molecule > Save > change "save as type"
 <center>
   <figure>
     <img src="./img/protein_vis.png" alt=" " >
-    <figcaption>ref: https://pdb101.rcsb.org/learn/videos </figcaption>
   </figure>
 </center>
