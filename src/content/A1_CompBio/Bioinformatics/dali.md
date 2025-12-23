@@ -53,6 +53,33 @@ shutil.copyfile(fp, daliPDB_path + daliname + ".pdb")
 ```
 
 
+## import.pl
+```
+#!/bin/bash
+
+cd /storage/shenhuaizhongLab/lihuilin/myDali/DaliLite.v5/piezo_ALL/daliPDB
+
+module load blast/2.11.0+
+
+mkdir -p "datdir"
+
+for file in ./*.pdb; do
+    id=$(basename $file .pdb | head -c 4)
+    ../../bin/import.pl --pdbfile $file --pdbid $id --dat datdir --clean
+done
+```
+
+```
+bash import.sh
+```
+
+
+## dali.pl (one2all)
+```
+../bin/dali.pl -cd1 aaamA --db ./dat.txt --TITLE sysm --dat1 ./datdir --dat2 ./datdir
+```
+
+
 ## usage history
 
 ```
