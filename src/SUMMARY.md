@@ -21,8 +21,6 @@
     - [results](content/bioinformatics/BinderDesign/results.md)
     
 - [Computational Protein](content/bioinformatics/protein/readme.md)
-    - [Protein](content/bioinformatics/protein/protein.md)
-    - [Protein Representation](content/bioinformatics/protein/proteinVIS.md)
     - [Environment Setup](content/bioinformatics/environment.md)
     - [databases: PDB, Swiss-Prot, OMG_Prot50](content/bioinformatics/protein/db.md)
     - [BLAST usage: BLASTp makeblastdb](content/bioinformatics/protein/blast.md)
