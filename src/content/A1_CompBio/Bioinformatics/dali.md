@@ -74,10 +74,58 @@ bash import.sh
 ```
 
 
-## dali.pl (one2all)
+## dali.pl 
+- one2all, only Z-score
 ```
 ../bin/dali.pl -cd1 aaamA --db ./dat.txt --TITLE sysm --dat1 ./datdir --dat2 ./datdir
 ```
+-  one2one, with alignment
+```
+../bin/dali.pl --cd1 aaamA --cd2 aaa0A --dat1 ./datdir --dat2 ./datdir --title "output options" --outfmt "summary,alignments,equivalences,transrot" --clean 2> err
+```
+ - one2all, with alignment
+ ```
+#!/bin/bash
+
+cd /storage/shenhuaizhongLab/lihuilin/myDali/DaliLite.v5/piezo_ALL
+
+module load blast/2.11.0+
+
+
+
+DATDIR=/storage/shenhuaizhongLab/lihuilin/myDali/DaliLite.v5/piezo_ALL/datdir
+REF=aaamA
+
+for dat in "$DATDIR"/*.dat; do
+    id=$(basename "$dat" .dat)
+
+    if [ "$id" = "$REF" ]; then
+        continue
+    fi
+
+    jobdir="${REF}_vs_${id}"
+    echo "Aligning $REF vs $id → $jobdir"
+
+    mkdir -p "$jobdir"
+
+
+    (
+        cd "$jobdir" || exit 1
+
+        ../../bin/dali.pl \
+            --cd1 "$REF" \
+            --cd2 "$id" \
+            --dat1 "$DATDIR" \
+            --dat2 "$DATDIR" \
+            --clean \
+            2> "err_${REF}_vs_${id}.log"
+    )
+done
+
+ ```
+
+
+
 
 
 ## usage history
