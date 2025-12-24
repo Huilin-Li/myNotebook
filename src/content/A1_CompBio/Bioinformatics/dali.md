@@ -117,10 +117,13 @@ for dat in "$DATDIR"/*.dat; do
             --cd2 "$id" \
             --dat1 "$DATDIR" \
             --dat2 "$DATDIR" \
+            --title "output options" \
+            --outfmt "summary,alignments,equivalences,transrot" \
             --clean \
             2> "err_${REF}_vs_${id}.log"
     )
 done
+
 
  ```
 

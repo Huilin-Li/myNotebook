@@ -3,78 +3,26 @@
 
 ```
 module load blast/2.11.0+
-cd domainPDB
 
-../bin/import.pl 
---pdbfile ../toy_PDB/pdb1ppt.ent 
---pdbid 1ppt 
---dat ./ 
-> import.stdout 2> import.stderr
+makeblastdb -in ./targetDB/target30.fasta -input_type fasta -dbtype prot -out ./targetDB_blast/targetDB.blast
+
+blastp -query q92508.fasta -db ./targetDB_blast/targetDB.blast > query_blastp_target30.out
+
+tree
+.
+├── q92508.fasta
+├── query_blastp_target30.out
+├── targetDB
+│   └── target30.fasta
+└── targetDB_blast
+    ├── targetDB.blast.pdb
+    ├── targetDB.blast.phr
+    ├── targetDB.blast.pin
+    ├── targetDB.blast.pot
+    ├── targetDB.blast.psq
+    ├── targetDB.blast.ptf
+    └── targetDB.blast.pto
+
 
 ```
 
-
-```
-cd root/OMGstudy/
-tree
-.
-├── query.fasta
-├── OMGDB_blast
-├── OMGDB_fasta
-    └── OMGDB.fasta
-
-
-makeblastdb -in ./OMGDB_fasta/OMGDB.fasta -input_type fasta -dbtype prot -out ./OMGDB_blast/OMGDB.blast
-tree
-.
-├── query.fasta
-├── OMGDB_blast
-│   ├── OMGDB.blast.00.phr
-│   ├── OMGDB.blast.00.pin
-│   ├── OMGDB.blast.00.psq
-│   ├── OMGDB.blast.01.phr
-│   ├── OMGDB.blast.01.pin
-... ...
-│   ├── OMGDB.blast.30.psq
-│   ├── OMGDB.blast.31.phr
-│   ├── OMGDB.blast.31.pin
-... ...
-│   ├── OMGDB.blast.43.phr
-│   ├── OMGDB.blast.43.pin
-│   ├── OMGDB.blast.43.psq
-│   ├── OMGDB.blast.pal
-│   ├── OMGDB.blast.pdb
-│   ├── OMGDB.blast.pot
-│   ├── OMGDB.blast.ptf
-│   └── OMGDB.blast.pto
-├── OMGDB_fasta
-    └── OMGDB.fasta
-
-
-blastp -query query.fasta -db /root/OMGstudy/OMGDB_blast/OMGDB.blast > query_blastp_omgdb.out
-tree
-.
-├── query_blastp_omgdb.out
-├── query.fasta
-├── OMGDB_blast
-│   ├── OMGDB.blast.00.phr
-│   ├── OMGDB.blast.00.pin
-│   ├── OMGDB.blast.00.psq
-│   ├── OMGDB.blast.01.phr
-│   ├── OMGDB.blast.01.pin
-... ...
-│   ├── OMGDB.blast.30.psq
-│   ├── OMGDB.blast.31.phr
-│   ├── OMGDB.blast.31.pin
-... ...
-│   ├── OMGDB.blast.43.phr
-│   ├── OMGDB.blast.43.pin
-│   ├── OMGDB.blast.43.psq
-│   ├── OMGDB.blast.pal
-│   ├── OMGDB.blast.pdb
-│   ├── OMGDB.blast.pot
-│   ├── OMGDB.blast.ptf
-│   └── OMGDB.blast.pto
-├── OMGDB_fasta
-    └── OMGDB.fasta
-```
