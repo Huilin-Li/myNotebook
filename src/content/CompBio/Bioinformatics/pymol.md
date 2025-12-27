@@ -1,4 +1,5 @@
-# PyMol
+# PyMol/ChimeraX
+## PyMol
 
  - select residues based on residue number
 ```t
@@ -30,3 +31,7 @@ File > Export Structure > Export Molecule > Save > change "save as type"
     <img src="./img/protein_vis.png" alt=" " >
   </figure>
 </center>
+
+## ChimeraX
+- `color #1: 1305-1367 #00FE35`
+- 
