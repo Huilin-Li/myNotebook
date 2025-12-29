@@ -20,5 +20,7 @@ gunzip -c taxdump.tar.gz | tar xf -
 
 # taxonkit
 ```
+conda install -c bioconda taxonkit
+
 taxonkit lineage beam_tax.txt | tee ./domain_tax/beam_tax_lin.txt
 ```

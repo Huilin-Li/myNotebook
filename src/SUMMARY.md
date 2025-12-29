@@ -30,6 +30,7 @@
     - [cif2pdb](content/CompBio/Bioinformatics/cif2pdb.md)
     - [CD-HIT](content/CompBio/Bioinformatics/cdhit.md)
     - [parse Blastp XML2](content/CompBio/Bioinformatics/parseBLASTpXML2.md)
+    - [batch alignment in chimeraX](content/CompBio/Bioinformatics/chimeraX.md)
 
 
 # Molecular Biology
