@@ -14,6 +14,12 @@ folsseek createdb myDB_dir/ myDB
 # myDB_dir has lots of pdb files 
 ```
 
+## foldseek all2all
+```
+
+```
+
+
 ## foldseek easy-search
 ```
 usage: foldseek easy-search <i:PDB|mmCIF[.gz]> ... <i:PDB|mmCIF[.gz]>|<i:stdin> <i:targetFastaFile[.gz]>|<i:targetDB> <o:alignmentFile> <tmpDir> [options]

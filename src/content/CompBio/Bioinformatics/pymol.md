@@ -19,6 +19,12 @@ cmd.save("mutated_target.pdb")
 File > Export Structure > Export Molecule > Save > change "save as type"
 ```
 
+- select and color
+```
+select AFlow2, AF-A0A482RRZ8-F1-model_v6_aligned_CA and resi 57+147+148
+color 0xFFDB13, AFlow2
+```
+
 - diagram
     - Space-filling diagram:
         - shows all atoms
