@@ -10,13 +10,13 @@ conda install -c conda-forge -c bioconda foldseek
 
 ## Customize Database
 ```
-folsseek createdb myDB_dir/ myDB
+foldseek createdb myDB_dir/ myDB
 # myDB_dir has lots of pdb files 
 ```
 
 ## foldseek all2all
 ```
-
+foldseek search myDB myDB result.m8 tmp
 ```
 
 
