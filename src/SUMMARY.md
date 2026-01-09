@@ -34,7 +34,7 @@
 
 
 # Molecular Biology
-- [PyMol](content/CompBio/Bioinformatics/pymol.md)
+- [PyMolChimeraX](content/MolecularBiology/software.md)
 - [Gene](content/MolecularBiology/note1.md)
 - [Protein](content/MolecularBiology/note2.md)
 

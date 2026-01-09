@@ -40,4 +40,9 @@ color 0xFFDB13, AFlow2
 
 ## ChimeraX
 - `color #1: 1305-1367 #00FE35`
-- 
+- partial views
+<center>
+  <figure>
+    <img src="./img/sideview.png" alt=" " >
+  </figure>
+</center>
