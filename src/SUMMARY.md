@@ -4,7 +4,7 @@
 
 # computational biology
 - [Design](content/CompBio/Design/readme.md)
-    - [OVO]()
+    - [OVO](content/CompBio/Design/ovo.md)
     - [preprocessing](content/CompBio/Design/truncation.md)
     - [design](content/CompBio/Design/design.md)
     - [pae_interaction score](content/CompBio/Design/pae_score.md)
