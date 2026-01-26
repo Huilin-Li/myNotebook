@@ -42,6 +42,20 @@
 > Download the RFdiffusion model checkpoint files locally, then copy them to HPC. <br>
 > Under /storage/shenhuaizhongLab/lihuilin/ovo/reference_files/rfdiffusion_models/
 
-10. `ovo init preview` again
-11. 
+10. `srun -p intel-sc3 -c 4 --mem=10G --pty bash` 
+> Process requirement exceeds available CPUs -- req: 4; avail: 1
+11. `mkdir -p /storage/shenhuaizhongLab/lihuilin/ovo/workdir/work/conda/env-fa85553f425440ecd8f4fdc763417c2f/lib/python3.11/site-packages/RFdiffusion`
+> folder name must be RFdiffusion
+12. `cd /storage/shenhuaizhongLab/lihuilin/ovo/workdir/work/conda/env-fa85553f425440ecd8f4fdc763417c2f/lib/python3.11/site-packages/RFdiffusion`
+13. `git clone --depth 1 https://github.com/prihoda/RFdiffusion-fork`
+14. `/storage/shenhuaizhongLab/lihuilin/ovo/workdir/work/conda/env-fa85553f425440ecd8f4fdc763417c2f/bin/python -m pip install biopandas`
+15. `/storage/shenhuaizhongLab/lihuilin/ovo/workdir/work/conda/env-fa85553f425440ecd8f4fdc763417c2f/bin/python -m pip install torch`
+16. `/storage/shenhuaizhongLab/lihuilin/ovo/workdir/work/conda/env-fa85553f425440ecd8f4fdc763417c2f/bin/python -m pip install omegaconf`
+17. `/storage/shenhuaizhongLab/lihuilin/ovo/workdir/work/conda/env-fa85553f425440ecd8f4fdc763417c2f/bin/python -m pip install hydra-core`
+18. `/storage/shenhuaizhongLab/lihuilin/ovo/workdir/work/conda/env-fa85553f425440ecd8f4fdc763417c2f/bin/python -m pip install scipy`
+19. `/storage/shenhuaizhongLab/lihuilin/ovo/workdir/work/conda/env-fa85553f425440ecd8f4fdc763417c2f/bin/python -m pip install opt_einsum`
+20. `/storage/shenhuaizhongLab/lihuilin/ovo/workdir/work/conda/env-fa85553f425440ecd8f4fdc763417c2f/bin/python -m pip install dgl`
+21. 
+
+
 
