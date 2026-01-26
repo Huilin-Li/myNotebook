@@ -56,7 +56,7 @@ pip install pyg_lib torch_scatter torch_sparse torch_cluster torch_spline_conv -
 
 <center>
   <figure>
-    <img src="./protein/img/env.png" alt=" " width="600">
+    <img src="./img/env.png" alt=" " width="600">
   </figure>
 </center>
 
