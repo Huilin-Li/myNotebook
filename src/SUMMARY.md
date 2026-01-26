@@ -3,12 +3,13 @@
 [Huilin's Notebook](README.md)
 
 # computational biology
-- [Binder design](content/CompBio/BinderDesign/readme.md)
-    - [preprocessing](content/CompBio/BinderDesign/truncation.md)
-    - [design](content/CompBio/BinderDesign/design.md)
-    - [pae_interaction score](content/CompBio/BinderDesign/pae_score.md)
-    - [backbones filtering](content/CompBio/BinderDesign/filtering.md)
-    - [results](content/CompBio/BinderDesign/results.md)
+- [Design](content/CompBio/Design/readme.md)
+    - [OVO]()
+    - [preprocessing](content/CompBio/Design/truncation.md)
+    - [design](content/CompBio/Design/design.md)
+    - [pae_interaction score](content/CompBio/Design/pae_score.md)
+    - [backbones filtering](content/CompBio/Design/filtering.md)
+    - [results](content/CompBio/Design/results.md)
 
 - [Bioinformatics](content/CompBio/readme.md)
     - [Environment Setup](content/CompBio/Bioinformatics/environment.md)

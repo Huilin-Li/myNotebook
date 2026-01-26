@@ -1,5 +1,5 @@
 # Movies
-I am a fan of movies (particularly commedy movies). In my spare time, I am helping analyzing movies' data in a public community.
+I am a fan of movies (particularly comedy movies). In my spare time, I am helping analyzing movies' data in a public community.
 
 > Add watermark tool: https://joyqi.github.io/sfz/ 
 
