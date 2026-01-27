@@ -49,33 +49,30 @@ In practice, due to the network constraints on HPC, it will be much faster to do
 
 </div>
 
-12. 
+12. (optional)
 <div class="warning">
 
 **Process requirement exceeds available CPUs -- req: 4; avail: 1**
 
-`ovo init preview` needs internecr accession and CPUs\\(\ge\\)4
-
+`ovo init preview` requires internet accession and CPUs\\(\ge\\)4 simultaneously. In my practice, the login node can access internet, but only have 1 CPU. In this case, we can modify `/home/shenhuaizhongLab/lihuilin/miniconda3/envs/myovo/lib/python3.13/site-packages/ovo/pipelines/rfdiffusion-backbone/main.nf` file by changing cpus 4 to cpus 1 (line 11) and memory "16 GB" to memory "8 GB" (line 12).
 </div>
 
 
 
-12. 
+13. `ovo init preview`
+<center>
+  <figure>
+    <img src=".\bioIMG\ovo3.PNG" alt=" " >
+    <figcaption>ovo init preview</figcaption>
+  </figure>
+</center>
 
-10. `srun -p intel-sc3 -c 4 --mem=10G --pty bash` 
-> Process requirement exceeds available CPUs -- req: 4; avail: 1
-11. `mkdir -p /storage/shenhuaizhongLab/lihuilin/ovo/workdir/work/conda/env-fa85553f425440ecd8f4fdc763417c2f/lib/python3.11/site-packages/RFdiffusion`
-> folder name must be RFdiffusion
-12. `cd /storage/shenhuaizhongLab/lihuilin/ovo/workdir/work/conda/env-fa85553f425440ecd8f4fdc763417c2f/lib/python3.11/site-packages/RFdiffusion`
-13. `git clone --depth 1 https://github.com/prihoda/RFdiffusion-fork`
-14. `/storage/shenhuaizhongLab/lihuilin/ovo/workdir/work/conda/env-fa85553f425440ecd8f4fdc763417c2f/bin/python -m pip install biopandas`
-15. `/storage/shenhuaizhongLab/lihuilin/ovo/workdir/work/conda/env-fa85553f425440ecd8f4fdc763417c2f/bin/python -m pip install torch`
-16. `/storage/shenhuaizhongLab/lihuilin/ovo/workdir/work/conda/env-fa85553f425440ecd8f4fdc763417c2f/bin/python -m pip install omegaconf`
-17. `/storage/shenhuaizhongLab/lihuilin/ovo/workdir/work/conda/env-fa85553f425440ecd8f4fdc763417c2f/bin/python -m pip install hydra-core`
-18. `/storage/shenhuaizhongLab/lihuilin/ovo/workdir/work/conda/env-fa85553f425440ecd8f4fdc763417c2f/bin/python -m pip install scipy`
-19. `/storage/shenhuaizhongLab/lihuilin/ovo/workdir/work/conda/env-fa85553f425440ecd8f4fdc763417c2f/bin/python -m pip install opt_einsum`
-20. `/storage/shenhuaizhongLab/lihuilin/ovo/workdir/work/conda/env-fa85553f425440ecd8f4fdc763417c2f/bin/python -m pip install dgl`
+14. `ovo app`
+<center>
+  <figure>
+    <img src=".\bioIMG\ovo4.PNG" alt=" " >
+    <figcaption>ovo app</figcaption>
+  </figure>
+</center>
 
-
-
-
+15. `ssh -L 8501:localhost:8501 lihuilin@172.16.78.132 -p 10002`
