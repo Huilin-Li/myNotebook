@@ -3,12 +3,13 @@
 ## install
 - https://ovo.dichlab.org/docs/user_guide/installation.html
 
-1. `conda create --name ovo python=3.13`
-2. `python --version` (Python 3.13 recommended, at least 3.10)
-3. `java -version` Java (OpenJDK 21-24 recommended, at least 17)
+1. `conda create --name myovo python=3.13`
+2. `conda activate myovo`
+3. `python --version` (Python 3.13 recommended, at least 3.10)
+4. `java -version` Java (OpenJDK 21-24 recommended, at least 17)
 > module load jdk/18.0.1.1
-4. `pip install ovo`
-5. `ovo init home`
+5. `pip install ovo`
+6. `ovo init home`
 <center>
   <figure>
     <img src=".\bioIMG\ovo1.PNG" alt=" " width="700">
@@ -17,12 +18,12 @@
 </center>
 
 
-6. `source /home/shenhuaizhongLab/lihuilin/.bashrc` # load env variables
-7. `conda activate ovo` # re-activate this environment
-
-8. `conda install -c bioconda nextflow`
+7. `source /home/shenhuaizhongLab/lihuilin/.bashrc` # load env variables
+8. `conda deactivate`
+9. `conda activate myovo` # re-activate this environment
+10. `conda install -c bioconda nextflow`
 ```
-(ovo) [lihuilin@login04 ~]$ nextflow -version
+(myovo) [lihuilin@login02 ~]$ nextflow -version
 
       N E X T F L O W
       version 25.10.2 build 10555
@@ -31,7 +32,7 @@
       http://nextflow.io
 
 ```
-9. `ovo init preview`
+11. `ovo init preview`
 <center>
   <figure>
     <img src=".\bioIMG\ovo2.PNG" alt=" " width="700">
@@ -39,8 +40,27 @@
   </figure>
 </center>
 
-> Download the RFdiffusion model checkpoint files locally, then copy them to HPC. <br>
-> Under /storage/shenhuaizhongLab/lihuilin/ovo/reference_files/rfdiffusion_models/
+
+<div class="warning">
+
+**Download RFdiffusion model checkpoint files:**
+
+In practice, due to the network constraints on HPC, it will be much faster to download these files locally, and then transfer them to the correct folder on HPC. (e.g. /storage/shenhuaizhongLab/lihuilin/ovo/reference_files/rfdiffusion_models)
+
+</div>
+
+12. 
+<div class="warning">
+
+**Process requirement exceeds available CPUs -- req: 4; avail: 1**
+
+`ovo init preview` needs internecr accession and CPUs\\(\ge\\)4
+
+</div>
+
+
+
+12. 
 
 10. `srun -p intel-sc3 -c 4 --mem=10G --pty bash` 
 > Process requirement exceeds available CPUs -- req: 4; avail: 1

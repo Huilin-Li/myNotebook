@@ -22,7 +22,7 @@
     - [sequence similarity .py](content/CompBio/Bioinformatics/seqsimilarity.md)
     - [foldseek usage](content/CompBio/Bioinformatics/foldseek.md)
     - [MMseqs2 usage](content/CompBio/Bioinformatics/mmseqs.md)
-    - [localcolabfold usage](content/A1_CompBio/Bioinformatics/localcolabfold.md)
+    - [localcolabfold usage](content/CompBio/Bioinformatics/localcolabfold.md)
     - [Encoding Sequences into Integer Representations Using K-mer Binary Mapping](content/CompBio/Bioinformatics/kmerbinarymap.md)
     - [parasail in C usage](content/CompBio/Bioinformatics/parasailC.md)
     - [Biopython](content/CompBio/Bioinformatics/biopython.md)
