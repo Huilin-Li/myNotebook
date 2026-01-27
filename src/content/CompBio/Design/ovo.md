@@ -62,7 +62,7 @@ In practice, due to the network constraints on HPC, it will be much faster to do
 13. `ovo init preview`
 <center>
   <figure>
-    <img src=".\bioIMG\ovo3.PNG" alt=" " >
+    <img src=".\bioIMG\ovo3.png" alt=" " >
     <figcaption>ovo init preview</figcaption>
   </figure>
 </center>
@@ -70,7 +70,7 @@ In practice, due to the network constraints on HPC, it will be much faster to do
 14. `ovo app`
 <center>
   <figure>
-    <img src=".\bioIMG\ovo4.PNG" alt=" " >
+    <img src=".\bioIMG\ovo4.png" alt=" " >
     <figcaption>ovo app</figcaption>
   </figure>
 </center>
