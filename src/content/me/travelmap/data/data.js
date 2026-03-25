@@ -169,6 +169,21 @@ var data = {
           "coordinates": [50.848829738914986, 4.359451534574198]
         }
       ]
+    },
+    {
+      "id": "DNK",
+      "cities": [
+        {
+          "name": "Copenhagen",
+          "description": "",
+          "coordinates": [55.6761, 12.5683]
+        },
+        {
+          "name": "Odense",
+          "description": "",
+          "coordinates": [55.4038, 10.4024]
+        }
+      ]
     }
   ]
 }
