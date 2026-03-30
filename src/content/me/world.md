@@ -50,3 +50,7 @@
   - Eindhoven
   - Maastricht
 
+- <img src="travelmap/flags/1x1/dk.svg" width="18" style="vertical-align: middle; margin-right: 6px;"> <br>
+  - Odense
+  - copenhagen
+
