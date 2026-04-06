@@ -66,4 +66,3 @@
 -----------
 
 [Contact](content/me/contact.md)
-[World](content/me/world.md)
