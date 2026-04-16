@@ -38,6 +38,14 @@ color 0xFFDB13, AFlow2
   </figure>
 </center>
 
+
+- select one atom
+
+```
+elect atom, ala and resi 4 and name CA
+```
+
+
 ## ChimeraX
 - `color #1: 1305-1367 #00FE35`
 - partial views
