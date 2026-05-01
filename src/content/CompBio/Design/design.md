@@ -4,18 +4,16 @@ In my use case, firstly, I tried to de novo design binders. However, I found tha
 
 ## Three needed designing environments
 
-Thanks a lot to the great work, [**RFdiffusion**](https://github.com/RosettaCommons/RFdiffusion) and [**ProteinMPNN-FastRelax**](https://github.com/nrbennet/dl_binder_design/tree/main), as well as [**AlphaFold2**](https://github.com/nrbennet/dl_binder_design/tree/main?tab=readme-ov-file#alphafold2-complex-prediction-), who give us great ways to design proteins.
-
-- **RFdiffuion** for desigining protein backbones, under <code>SE3nv environment</code>. 
-- **ProteinMPNN-FastRelax** for desiging protein sequences, under <code>dl_binder_design environment</code>. 
-- **AlphaFold2** for evaluating designed proteins, under <code>af2_binder_design environment</code>.
+- [**RFdiffusion**](https://github.com/RosettaCommons/RFdiffusion) for desigining protein backbones, under <code>SE3nv environment</code>. 
+- [**ProteinMPNN-FastRelax**](https://github.com/nrbennet/dl_binder_design/tree/main) for desiging protein sequences, under <code>dl_binder_design environment</code>. 
+- [**AlphaFold2**](https://github.com/nrbennet/dl_binder_design/tree/main?tab=readme-ov-file#alphafold2-complex-prediction-) for evaluating designed proteins, under <code>af2_binder_design environment</code>.
 
 We will design binders under these three environments: <code>SE3nv environment</code>, <code>dl_binder_design environment</code>, <code>af2_binder_design environment</code>.
 
-<details>
-<summary><b>Install these three environments</b></summary>
-Make sure you have high performance computating envrionment with CUDA, and you can access GPU and internet. Their installations can automatically install dependencied packages that fit the GPU environment which you have to use for the heavy computation.
-</details>
+> **Install these three environments**
+> Make sure you have high performance computating envrionment with CUDA, and you can access GPU and internet. Their installations can automatically install dependencied packages that fit the GPU environment which you have to use for the heavy computation.
+
+
 
 ## Quickly go through the whole process
 
